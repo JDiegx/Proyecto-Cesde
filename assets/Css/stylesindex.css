@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 90px;
+}
+
+header .logo a img{
+    width: 260px;
+    margin-left: 50px;
+}
+
+header nav a button{
+    background-color: #E71D73;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 120px;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header nav button:hover{
+    background-color: #ff4c99;
+}
+
+main{
+    width: 100%;
+    height: 600px;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #424242;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .logredsociales{
+    width: 300px;
+    height: 200px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+}
+
+footer .logredsociales img{
+    width: 160px;
+    margin-top: 20px;
+}
+
+footer .logredsociales .p{
+    margin-top: 17px;
+    margin-left: 20px;
+    width: 190px;
+    font-size: 11px;
+}
+
+footer .redes{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+footer .redes i svg{
+    margin: 0px 8px;
+    width: 20px;
+    height: 20px;
+}
+
+footer .redes i svg:hover{
+    color: #fd3089;
+}
+
+footer .sedes h2{
+    font-size: 20px;
+}
+
+footer .sedes hr,
+footer .lineasAtencion hr {
+    border: none; /* Quita el borde predeterminado */
+    border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+    margin: 2px 0px 10px 0px;
+}
+
+footer .sedes ul{
+    font-size: 17px;
+}
+
+footer .lineasAtencion{
+    margin-bottom: 41px;
+}
+
+footer .lineasAtencion h2{
+    font-size: 20px;
+}
+
+footer .lineasAtencion ul{
+    font-size: 17px;
+}
+
+
+footer .politicas{
+    font-size: 15px;
+    margin-right: 40px;
+    
+}
+
+footer .politicas ul{
+    list-style-type: none;
+}
+
+footer .politicas a{
+    color: white;
+    text-decoration: none;
+}
