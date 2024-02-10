@@ -8,6 +8,8 @@
 
 #Instructivo
 ![Instructivo](https://github.com/JDiegx/CesdeEmpresarialProyect/assets/147659518/a6d20acc-e80c-4e90-8d31-89a8cb4beb2c)
+![Instructivo 2](https://github.com/JDiegx/CesdeEmpresarialProyect/assets/147659518/505b7bdf-2596-4d87-b682-1c262fc6bd04)
+
 
 ## Tecnologías utilizadas(Hasta el momento)
 - Frontend: HTML y CSS
