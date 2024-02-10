@@ -1,4 +1,3 @@
-# CesdeEmpresarialProyect
 
 # Proyecto Cesde Empresarial
 
