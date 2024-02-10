@@ -110,7 +110,7 @@ footer .lineasAtencion hr {
 }
 
 footer .sedes ul{
-    font-size: 17px;
+    font-size: 15px;
 }
 
 footer .lineasAtencion{
@@ -122,18 +122,18 @@ footer .lineasAtencion h2{
 }
 
 footer .lineasAtencion ul{
-    font-size: 17px;
+    font-size: 15px;
 }
 
 
 footer .politicas{
     font-size: 15px;
     margin-right: 40px;
-    
 }
 
 footer .politicas ul{
     list-style-type: none;
+    margin-top: 10px;
 }
 
 footer .politicas a{
