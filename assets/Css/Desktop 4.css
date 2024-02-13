@@ -143,12 +143,13 @@ footer .politicas a{
 }
 
 main{
+    width: 100%;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 800px;
-    
+    margin-bottom: 150px;
 }
 
 
@@ -234,7 +235,3 @@ select{
     width: 100px;
 }
 
-footer{
-    margin-top: 70px;
-    height: 240px;
-}
