@@ -40,12 +40,339 @@ header nav button:hover{
     background-color: #ff4c99;
 }
 
-main{
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    height: 600px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.section1 .cesdecincuenta{
+    width: 60%;
+}
+
+.cesdecincuenta{
+    margin-left: 120px;
+    color: #535353;
+}
+
+.section1 .cesdecincuenta h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section1 .cesdecincuenta h5{
+    font-size: 15px;
+    margin: 10px 0px;
+    font-weight: 700;
+}
+
+.section1 .cesdecincuenta p{
+    font-size: 15px;
+}
+
+.section1 .img{
+    margin: 0px 100px 0px 0px;
+}
+.section1 .img img{
+    width: 330px;
+}
+
+.section2{
+    width: 100%;
+    height: 520px;
+    background-color: #EFEFEF;
+    color: #535353;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.section2 .historia h2{
+    margin: 40px 0px 0px 300px;
+    font-size: 33px;
+}
+.section2 .historia p{
+    margin: 10px 0px 0px 300px;
+    font-size: 15px;
+}
+
+.section2 .targets{
+    width: 60%;
+    height: 200px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.section2 .targets h2{
+    text-align: center;
+    font-size: 22px;
+    color: #E71D73;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+.section2 .targets .target{
+    width: 300px;
+    height: 190px;
+    background-color: white;
+    overflow: hidden;
 }
 
 
+.section2 .targets .target hr{
+    border: 2px solid #E71D73;
+}
+
+.section2 .targets .target img{
+    width: 100%;
+}
+
+.section2 .targets .target p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #535353;
+}
+
+
+.section2 .targets .target{
+    width: 300px;
+    height: 190px;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.section2 .targets .target hr{
+    border: 2px solid #E71D73;
+}
+
+.section2 .targets .target img{
+    width: 100%;
+}
+
+.section2 .targets .target p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #535353;
+}
+.section2 .targets .target{
+    width: 300px;
+    height: 190px;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.section2 .targets .target hr{
+    border: 2px solid #E71D73;
+}
+
+.section2 .targets .target img{
+    width: 100%;
+}
+
+.section2 .targets .targetlarge p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #535353;
+}
+.section2 .targets .targetlarge{
+    width: 300px;
+    height: 210px;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.section2 .targets .targetlarge hr{
+    border: 2px solid #E71D73;
+}
+
+.section2 .targets .targetlarge img{
+    width: 100%;
+}
+
+.section2 .targets .targetlarge p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #535353;
+}
+/* SECTION #3 Styles */
+
+.section3{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 .general3{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.section3 .general3 .tittle h2{
+    font-size: 23px;
+    color: #E71D73;
+    margin: -5px 0px 0px 0px;
+
+}
+
+.section3 .general3 .tittle p{
+    font-size: 17px;
+    color: #535353;
+    margin: 10px 0px 20px 0px;
+}
+
+.section3 .general3 .tags-etapas{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.section3 .general3 .tags-etapas .img img{
+    width: 404px;
+    height: 324px;
+}
+
+.section3 .general3 .tags-etapas .electiva ,
+.section3 .general3 .tags-etapas .eproductiva{
+    border: 2px solid #E71D73;
+    width: 400px;
+    height: 320px;
+}
+
+.section3 .general3 .tags-etapas .electiva{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section3 .general3 .tags-etapas .electiva .etapa{
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 40px;
+    background-color: #E71D73;
+    border: 2px solid #E71D73;
+}
+
+.section3 .general3 .tags-etapas .electiva .etapa:hover{
+    background-color: white;
+    color: #E71D73;
+    border: 2px solid #E71D73;
+}
+
+.section3 .general3 .tags-etapas .electiva .duracion{
+    margin: 50px 0px;
+    font-size: 20px;
+    color: #535353;
+}
+
+
+.section3 .general3 .tags-etapas .electiva .sostenimiento{
+    border: 3px solid #E71D73;
+    color: #535353;
+    width: 270px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.section3 .general3 .tags-etapas .electiva .sostenimiento h3 strong{
+    color: #EFC75B;
+}
+
+
+
+.section3 .general3 .tags-etapas .eproductiva{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 .general3 .tags-etapas .eproductiva .etapa{
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 40px;
+    background-color: #E71D73;
+    border: 2px solid #E71D73;
+}
+
+.section3 .general3 .tags-etapas .eproductiva .etapa:hover{
+    background-color: white;
+    color: #E71D73;
+    border: 2px solid #E71D73;
+}
+
+.section3 .general3 .tags-etapas .eproductiva .duracion{
+    margin: 43px 0px;
+    font-size: 18px;
+    color: #535353;
+}
+
+
+.section3 .general3 .tags-etapas .eproductiva .sostenimiento{
+    border: 3px solid #E71D73;
+    color: #535353;
+    width: 270px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.section3 .general3 .tags-etapas .eproductiva .sostenimiento h3{
+    font-size: 20px;
+}
+.section3 .general3 .tags-etapas .eproductiva .sostenimiento h3 strong{
+    color: #EFC75B;
+}
+
+
+
+
+
+
+.section3 .general3 .descrip{
+    width: 100%;
+    height: 250px;
+    margin-top: -5px;
+    background-color: #E71D73;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+}
 
 
 
@@ -78,8 +405,8 @@ footer .logredsociales img{
 
 footer .logredsociales .p{
     margin-top: 17px;
-    margin-left: 20px;
-    width: 190px;
+    margin-left: 30px;
+    width: 200px;
     font-size: 11px;
 }
 
@@ -111,6 +438,7 @@ footer .lineasAtencion hr {
 
 footer .sedes ul{
     font-size: 15px;
+    font-weight: 300;
 }
 
 footer .lineasAtencion{
@@ -123,6 +451,7 @@ footer .lineasAtencion h2{
 
 footer .lineasAtencion ul{
     font-size: 15px;
+    font-weight: 300;
 }
 
 
@@ -134,6 +463,7 @@ footer .politicas{
 footer .politicas ul{
     list-style-type: none;
     margin-top: 10px;
+    
 }
 
 footer .politicas a{
