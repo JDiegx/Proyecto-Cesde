@@ -22,29 +22,204 @@ header .logo a img{
     margin-left: 50px;
 }
 
-
-
 main{
     width: 100%;
-    height: 600px;
+}
+
+main .pag {
+    background-image: url(../img/background.png);
+    width: 100%;
+    height: 1200px;
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la ventana */
+    background-position: center;
+}
+
+main .pag .login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+main .pag .login .logindates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .pag .login .logindates h2{
+    font-size: 35px;
+    color: #E71D73;
+}
+
+main .pag .login .logindates h4{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+main .pag .login .logindates input{
+    width: 400px;
+    height: 20px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    padding: 12px;
+    font-size: 20px;
+    border: 1px solid rgb(54, 54, 54);
+    margin-bottom: 15px;
+}
+
+main .pag .login .logindates button{
+    background-color: #E71D73;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+main .pag .login .logindates button:hover{
+    background-color: #ff4c99;
+}
+
+main .pag .login .imglogin{
+    margin: 80px 0px 0px 200px;
+}
+main .pag .login .imglogin img{
+    border-radius: 25px;
+}
+
+main  .section2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .section2 .trasnfor-educacion{
+    margin-left: 150px;
+}
+main .section2 .trasnfor-educacion h2{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+main .section2 .trasnfor-educacion p{
+    color: #424242;
+}
+
+main .section2 .img{
+    margin: 50px 300px 20px 0px;
+}
+main .section2 .img img {
+    border-radius: 25px;
+}
+
+main .section3{
+    width: 100%;
+    height: 800px;
+    background-color: #242422;
+    color: white;
+    text-align: center;
+}
+
+main .section3 .ayuda{
+    padding: 50px 0px 40px 0px;
+}
+main .section3 .ayuda h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+main .section3 .targetsay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .section3 .targetsay .targetayuda{
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    color: #242422;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+main .section3 .targetsay .targetayuda .tittle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+main .section3 .targetsay .targetayuda .tittle img{
+    margin: 10px 10px 0px 20px;
+}
+main .section3 .targetsay .targetayuda .tittle h3{
+    font-size: 15px;
+    color: #242422;
+    margin-top: 5px;
+}
+
+main .section3 .targetsay .targetayuda p{
+    text-align: left;
+    margin: 0px 0px 0px 30px;
+    color: #424242;
+    font-size: 14px;
+}
+main .section3 .targetsay .targetayuda a{
+    text-align: left;
+}
+main .section3 .targetsay .targetayuda a img{
+    text-align: left;
+    margin: 23px 0px 0px 30px;
+}
+
+main .section4{
+    width: 100%;
+    height: 400px;
+
+}
+main .section4 h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+main .section4 .instructivo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+main .section4 .instructivo .docs{
+    display: flex;
+    flex-direction: row;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+main .section4 .instructivo .docs img{
+    margin-right: 10px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+main .section4 .instructivo .docs a{
+    text-decoration: none;
+    color: #242422;
+}
 
 footer{
     width: 100%;
@@ -75,8 +250,8 @@ footer .logredsociales img{
 
 footer .logredsociales .p{
     margin-top: 17px;
-    margin-left: 20px;
-    width: 190px;
+    margin-left: 30px;
+    width: 200px;
     font-size: 11px;
 }
 
@@ -108,6 +283,7 @@ footer .lineasAtencion hr {
 
 footer .sedes ul{
     font-size: 15px;
+    font-weight: 300;
 }
 
 footer .lineasAtencion{
@@ -120,6 +296,7 @@ footer .lineasAtencion h2{
 
 footer .lineasAtencion ul{
     font-size: 15px;
+    font-weight: 300;
 }
 
 
@@ -131,6 +308,7 @@ footer .politicas{
 footer .politicas ul{
     list-style-type: none;
     margin-top: 10px;
+    
 }
 
 footer .politicas a{
