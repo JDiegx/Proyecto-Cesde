@@ -46,9 +46,137 @@ main{
     height: 600px;
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+.btn-admiestu{
+width: 360px !important;
+margin-bottom: 30px;
+margin-top: 50px;
+}
+
+.formularios {
+    display: flex; /* Usar flexbox */
+    flex-direction: row; /* Dirección de fila para que los elementos estén uno al lado del otro */
+}
+.flex-content {
+    border-radius: 5px;
+    background-color: #a7a4a5;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 50px;
+    }
+
+    .espacio-form{
+        padding-left: 50px;
+    }
+
+
+.form-select{
+    margin-left: 30px;
+}
+
+.caja1,
+.caja2 {
+    background-color: rgb(196, 193, 193);
+    width: 50%; /* Ajusta la anchura para que ambas cajas quepan lado a lado */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align:left;
+    border-radius: 15px;
+}
+.Grupo{
+    margin-left: 30px;
+}
+
+.caja1 {
+    margin-left: 30px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.caja2 {
+    margin-right: 30px;
+}
+
+.identificador{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #7fff00;
+    border: 1px solid #1d1c1c;
+    display: inline-block;
+}
+
+.identificador1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #ffef00;
+    
+    display: inline-block; 
+}
+
+.identificador2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #ff0800;
+    border: 1px solid #1d1c1c;
+    display: inline-block; 
+}
+
+.color_letra{
+    color: #1d1c1c;
+}
+
+.modal-dialog{
+    height: 20px !important;
+    margin: 10px 0 10px;
+    padding: 5px;
+}
+
+.fotoemergente{
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    
+}
+
+.columna1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.columna2{
+    border-radius: 5px;
+    height: 60vh;
+    background-color: #a7a4a5;
+    
+}
+ 
+.btn.btn-primary{
+    background-color: #fd3089;
+    border: #fd3089;
+}
+.fondo-datos-personales{
+    background-color: #a7a4a5;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+>>>>>>> fc73dbdfd377ed06d6ec82320a4725a39f9e96ab
 
 footer{
     width: 100%;
@@ -140,4 +268,9 @@ footer .politicas ul{
 footer .politicas a{
     color: white;
     text-decoration: none;
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> fc73dbdfd377ed06d6ec82320a4725a39f9e96ab
