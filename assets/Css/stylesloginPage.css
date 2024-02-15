@@ -29,7 +29,7 @@ main{
 main .pag {
     background-image: url(../img/background.png);
     width: 100%;
-    height: 1200px;
+    height: 1170px;
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la ventana */
     background-position: center;
 }
@@ -42,88 +42,147 @@ main .pag .login{
     width: 100%;
     height: 500px;
 }
-main .pag .login .logindates{
+
+main .pag .login .container-login{
+    width: 1700px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+main .pag .login .container-login .login-dates{
+    width: 445px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    padding-top: 20px;
 }
 
-main .pag .login .logindates h2{
-    font-size: 35px;
-    color: #E71D73;
-}
-
-main .pag .login .logindates h4{
-    font-size: 14px;
+main .pag .login .container-login .login-dates h2{
     text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    color: #E71D73;
+
+}
+
+main .pag .login .container-login .login-dates p{
+    font-size: 13px;
+    text-align: center;
+    color: #242422;
     font-weight: 600;
     margin-top: 5px;
-    margin-bottom: 20px;
-}
-main .pag .login .logindates input{
-    width: 400px;
-    height: 20px;
-    border-radius: 12px;
-    margin-bottom: 10px;
-    padding: 12px;
-    font-size: 20px;
-    border: 1px solid rgb(54, 54, 54);
-    margin-bottom: 15px;
 }
 
-main .pag .login .logindates button{
+main .pag .login .container-login .login-dates .inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+main .pag .login .container-login .login-dates .inputs input{
+    width: 350px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #535353;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+main .pag .login .container-login .login-dates a button{
     background-color: #E71D73;
     color: white;
     width: 110px;
-    height: 40px;
+    height: 37px;
     border-radius: 10px;
     border: none;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bolder;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
-main .pag .login .logindates button:hover{
-    background-color: #ff4c99;
+main .pag .login .container-login .login-dates a button:hover{
+    background-color: #e71d75b4;
 }
 
-main .pag .login .imglogin{
-    margin: 80px 0px 0px 200px;
-}
-main .pag .login .imglogin img{
-    border-radius: 25px;
-}
-
-main  .section2{
-    width: 100%;
-    height: auto;
+main .pag .login .container-login .login-dates .remember-forgot{
+    width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-main .section2 .trasnfor-educacion{
-    margin-left: 150px;
+main .pag .login .container-login .login-dates .remember-forgot label{
+    font-size: 13px;
 }
+
+
+main .pag .login .container-login .login-dates .remember-forgot a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #424242;
+}
+
+main .pag .login .container-login .login-img{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .pag .login .container-login .login-img img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+main  .section2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+main .section2 .cesde-edu-e{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    width: 90%;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+
+main .section2 .trasnfor-educacion{
+    margin-bottom: 60px;
+}
+
 main .section2 .trasnfor-educacion h2{
     margin-bottom: 10px;
     font-size: 25px;
 }
-main .section2 .trasnfor-educacion p{
+main .section2 .trasnfor-educacion  p{
     color: #424242;
 }
 
-main .section2 .img{
-    margin: 50px 300px 20px 0px;
+main .section2 .cesde-edu-e .img{
+    margin-right: 40px;
 }
-main .section2 .img img {
+
+main .section2 .cesde-edu-e .img img {
     border-radius: 25px;
 }
+
+
+
 
 main .section3{
     width: 100%;
