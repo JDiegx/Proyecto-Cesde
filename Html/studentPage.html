@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -25,7 +27,119 @@
         </nav>
     </header>
     <main>
+        <div class="rol">
+            <select class="form-select btn-admiestu" aria-label="Default select example">
+                <option value="2">Aspirante</option>
+                <option value="1">Administrativo</option>
+            </select>
+        </div>
+        <section class="bienvenido">
+            <h2>Bienvenido!</h2>
+            <h5>Aqui exploraras tu proceso de selección para el patrocinio empresarial Cesde.</h5>
+            <h5>Estate atento a tus medios de comunicación y cuenta de aspirante, donde te asignaremos pequeñas tareas <br> para asegurar el éxito de tu proceso de selección.</h5>
+        </section>
+        <section class="alert">
+            <div class="container-alert">
+                <div class="alert-icon">
+                    <h5>Alertas</h5>
+                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"/>
+                    </svg>
+                </a>
+                </div>
+            </div>
+        </section>
+        <section class="section-panel">
+            <div class="panel">
+                <div class="notify-novedades">
+                    <div class="novedades">
+                        <h2>Novedades</h2>
+                        <div class="notify">
+                            2
+                        </div>
+                    </div>
+                    <div class="container"> 
+                        <div class="new">
+                            <p>19/01/2024</p>
+                            <h3>Las clases comienzan el 19/01/24, y recibirás los horarios por este medio y detalles adicionales por correo electrónico.</h3>
+                        </div>
+                        <div class="new">
+                            <p>15/01/2024</p>
+                            <h3>No olvides que debes firmar el pagaré el 17/01/24 a las 2:00 PM en el piso 3 de cartera, sede principal Cesde Medellín.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="tareaspendientes">
+                    <div class="tittle-tp">
+                        <h2>Tareas Pendientes</h2>
+                    </div>
+                    <div class="container">
+                    </div>
+                    <div class="container">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="candidatoprocess">
+        </section>
+        <section class="lineaTiempo">
+            <h3>Proceso del Candidato</h3>
+            <div class="container-lt">
+                <div class="linea">
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <div class="ayuda">
+                <h1>¿Necesitas ayuda?</h1>
+                <h2> Solicita asesoría</h2>
+            </div>
+            <div class="targetsay">
+                <div class="targetayuda">
+                    <div class="tittle">
+                        <img src="../assets/img/telfcesdeicon.webp" alt="" width="60px">
+                        <h3>Línea de transparencia</h3>
+                    </div>
+                    <p>Teléfono: 018000517740</p>
+                    <p>Horario: Lunes a sábado de 6:00am a 10:00pm</p>
+                    
+                </div>
+                <div class="targetayuda">
+                    <div class="tittle">
+                        <img src="../assets/img/cesdewps.svg" alt="" width="60px">
+                        <h3>Soporte Whatsapp</h3>
+                    </div>
+                    <p>Haz clicl en el botón de abajo para comenzar tu conversación con el soporte de Whatsapp</p>
+                    <a href="https://api.whatsapp.com/send?phone=573336025210" target="_blank"><img src="../assets/img/soportewps.webp" alt="" width="140px"></a>
+                </div>
+            </div>
+            <div class="targetsay">
+                <div class="targetayuda">
+                    <div class="tittle">
+                        <img src="../assets/img/ticketcesdeicon.webp" alt="" width="60px">
+                        <h3>Tíquets</h3>
+                    </div>
+                    <p>Dirígete a nuestro knowledge base para resolver tus <br> dudas, o envía un tíquet de soporte.</p>
+                    <a href="https://cesdedigital.zohodesk.com/portal/es/newticket" target="_blank"><img src="../assets/img/tickets.webp" alt="" width="85px"></a>
+                </div>
+                <div class="targetayuda">
+                    <div class="tittle">
+                        <img src="../assets/img/emailcesdeicon.webp" alt="" width="60px">
+                        <h3>Email</h3>
+                    </div>
+                    <p>educaciondigital@cesde.edu.co</p>
+                </div>
+            </div>
+        </section>
     </main>
+    <script>
+        document.querySelector('.form-select').addEventListener('change', function() {
+            var selectedOption = this.value;
+            if (selectedOption === '1') {
+                window.location.href = '../Html/adminPage.html'; // Reemplaza 'tu_url_aqui' con la URL a la que deseas redirigir
+            }
+        });
+    </script>
     <footer>
         <div class="logredsociales">
             <img src="../assets/img/logocesdeWhite.png" alt="Logo Cede Blanco">
