@@ -86,15 +86,16 @@ main .rol select option {
 
 main .bienvenido{
     text-align: center;
+    margin-top: 70px;
 }
 
 main .bienvenido h2{
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 900;
 }
 
 main .bienvenido h5{
-    font-size: 17px;
+    font-size: 15px;
 }
 
 main .alert{
@@ -103,10 +104,11 @@ main .alert{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .container-alert{
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -139,9 +141,9 @@ main .section-panel{
 }
 
 main .panel{
-    width: 75%;
+    width: 70%;
     height: 800px;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: rgba(209, 209, 209, 0.473);
     display: flex;
     flex-direction: column;
@@ -195,6 +197,14 @@ main .panel .notify-novedades .container .new{
     margin-left: 30px;
 }
 
+main .panel .notify-novedades .container .new p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+main .panel .notify-novedades .container .new h3{
+    font-size: 19px;
+}
 
 main .panel .tareaspendientes{
     width: 90%;
@@ -226,7 +236,7 @@ main .panel .tareaspendientes .container{
 
 main .candidatoprocess{
     text-align: center;
-    margin: 100px 0px 50px 0px;
+    margin: 20px 0px 50px 0px;
 }
 
 main .candidatoprocess h3{
@@ -250,8 +260,8 @@ main .lineaTiempo h3{
 }
 
 main .lineaTiempo .container-lt{
-    width: 75%;
-    height: 200px;
+    width: 70%;
+    height: 170px;
     background-color: rgba(209, 209, 209, 0.747);
     border-radius: 25px;
     display: flex;
