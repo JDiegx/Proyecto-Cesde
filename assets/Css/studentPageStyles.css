@@ -46,43 +46,6 @@ main{
 }
 
 
-main .rol{
-    margin-top:30px;
-    margin-left: 180px;
-}
-main .rol select {
-    width: 220px;
-    height: 37px;
-    background-color: white;
-    padding: 5px 20px 5px 30px; /* Ajusta el padding-left para dar espacio a la flecha */
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    outline: none;
-    font-size: 16px;
-    font-weight: 700;
-    color: #424242;
-    background-image: url('ruta/a/la/imagen-de-flecha.svg'); /* Agrega una imagen de flecha */
-    background-repeat: no-repeat;
-    background-position: right 10px center; /* Ajusta la posición de la flecha */
-}
-
-main .rol select {
-    width: 220px;
-    height: 37px;
-    background-color: white;
-    padding: 5px 20px 5px 30px; /* Ajusta el padding-left para dar espacio a la flecha */
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    outline: none;
-    font-size: 16px;
-}
-
-main .rol select option {
-    padding-right: 20px;
-    width: 100%;
-    height: 100%;
-    font-size: 16px;
-}
 
 main .bienvenido{
     text-align: center;
@@ -90,12 +53,12 @@ main .bienvenido{
 }
 
 main .bienvenido h2{
-    font-size: 60px;
+    font-size: 65px;
     font-weight: 900;
 }
 
 main .bienvenido h5{
-    font-size: 15px;
+    font-size: 18px;
 }
 
 main .alert{
@@ -203,7 +166,7 @@ main .panel .notify-novedades .container .new p{
 }
 
 main .panel .notify-novedades .container .new h3{
-    font-size: 19px;
+    font-size: 20px;
 }
 
 main .panel .tareaspendientes{
@@ -257,6 +220,7 @@ main .lineaTiempo h3{
     font-size: 27px;
     font-weight: 700;
     margin-bottom: 20px;
+
 }
 
 main .lineaTiempo .container-lt{
