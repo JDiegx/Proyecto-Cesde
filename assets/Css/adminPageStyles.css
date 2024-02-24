@@ -267,6 +267,206 @@ section .tittle h2{
     height: 19px;
 }
 
+/* Ventanas Emergentes */
+
+#openview{
+    border: 0;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.ventanasEmergentes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semitransparente */
+    z-index: 9999; /* Valor alto para asegurarse de que esté por encima de otros elementos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal{
+    width: 750px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ventanasEmergentes .modal .exit{
+    width: 100%;
+}
+
+.ventanasEmergentes .modal .exit button{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+.ventanasEmergentes .content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.content .asp-info{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile{
+    width: 180px;
+    height: 200px;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+}
+
+.info{
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.info p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contact{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact .telefono{
+    display: flex;
+    align-items: center;
+    margin: 10px 5px;
+}
+
+.contact .telefono p{
+    font-size: 13px;
+    font-weight:600;
+}
+
+.contact .mail{
+    display: flex;
+}
+
+.contact .mail p{
+    font-size: 13px;
+    font-weight:600;
+}
+
+.asp-info button{
+    background-color: #E71D73;
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.asp-info button:hover{
+    background-color: #e71d75a1;
+}
+
+.content .documents{
+    width: 60%;
+    height: 95%;
+    overflow: hidden;
+}
+
+.tittle-d{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tittle-d p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.docs{
+    width: 100%;
+    height: 95%;
+    background-color: #ececec;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.container-docs{
+    padding-top: 30px;
+}
+
+.docs-archivo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.docs-archivo .tittle-docs p{
+    width: 120px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 35px;
+    background-color: rgb(219, 219, 219);
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.doc p{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.doc button{
+    border: none;
+    background-color: #42424200;
+}
 
 footer{
     width: 100%;
