@@ -15,6 +15,9 @@ Update Repository (09/03/2024)
 
 ## Tecnologías utilizadas(Hasta el momento)
 - Frontend: HTML y CSS
+- Java
+- Mysql
+- JDBC
 
 
 
