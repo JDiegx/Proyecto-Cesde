@@ -704,7 +704,6 @@ footer .politicas a{
             align-items: center;
             flex-direction: column;
             overflow: hidden;
-            background-color: #EFC75B;
         }
         
         
@@ -926,7 +925,6 @@ footer .politicas a{
         
         footer .lineasAtencion h2{
             font-size: 20px;
-            background-color: #EFC75B;
         }
         
         footer .lineasAtencion ul{
