@@ -919,10 +919,14 @@ footer .politicas a{
         
         footer .lineasAtencion{
             margin-bottom: 35px;
+            color: white;
+            text-decoration: none;
         }
+        
         
         footer .lineasAtencion h2{
             font-size: 20px;
+            background-color: #EFC75B;
         }
         
         footer .lineasAtencion ul{
@@ -1396,6 +1400,8 @@ footer .politicas a{
         
         footer .lineasAtencion{
             margin-bottom: 35px;
+            color: white;
+            text-decoration: none;
         }
         
         footer .lineasAtencion h2{
@@ -1862,7 +1868,10 @@ header nav button:hover{
     
     footer .lineasAtencion{
         margin-bottom: 35px;
+        color: white;
+        text-decoration: none;
     }
+    
     
     footer .lineasAtencion h2{
         font-size: 20px;
@@ -2258,6 +2267,8 @@ footer .sedes ul{
 
 footer .lineasAtencion{
     margin-bottom: 35px;
+    color: white;
+    text-decoration: none;
 }
 
 footer .lineasAtencion h2{
@@ -2438,7 +2449,10 @@ footer .sedes ul{
 
 footer .lineasAtencion{
     margin-bottom: 35px;
+    color: white;
+    text-decoration: none;
 }
+
 
 footer .lineasAtencion h2{
     font-size: 20px;
@@ -2610,7 +2624,10 @@ footer .sedes ul{
 
 footer .lineasAtencion{
     margin-bottom: 35px;
+    color: white;
+    text-decoration: none;
 }
+
 
 footer .lineasAtencion h2{
     font-size: 20px;
