@@ -1410,8 +1410,10 @@ footer .politicas a{
             font-size: 13px;
             font-weight: 300;
         }
+
         footer .politicas{
             font-size: 14px;
+
         }
         footer .politicas {
             width: 90%;
@@ -1431,9 +1433,7 @@ footer .politicas a{
             text-decoration: none;
         }
 }
-@media screen and (min-width: 601px) and (max-width: 901px){
-    
-
+@media screen and (min-width: 601px) and (max-width: 900px){
 header{
     display: flex;
     justify-content: space-between;
@@ -1883,11 +1883,17 @@ header nav button:hover{
     
     footer .politicas{
         font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
     footer .politicas ul{
         list-style-type: none;
         margin-top: 10px;
+        text-align: center;
+        margin-top: 30px;
     }
     
     footer .politicas a{
@@ -1895,8 +1901,7 @@ header nav button:hover{
         text-decoration: none;
     }
 }
-@media screen and (min-width: 902px) and (max-width: 1025px) {
-    /* Estilos CSS para dispositivos móviles medianos */
+@media screen and (min-width: 902px) and (max-width: 1044px) {
 .section1{
     display: flex;
     flex-direction: column;
@@ -2295,7 +2300,7 @@ footer .politicas a{
 
     /* Agrega aquí los estilos específicos para dispositivos móviles medianos si es necesario */
 }
-@media screen and (min-width: 1026px) and (max-width: 1281px) {
+@media screen and (min-width: 1045px) and (max-width: 1264px) {
     /* Estilos CSS para tablets en posición horizontal y pantallas pequeñas de escritorio */
 .section1{
     display: flex;
@@ -2390,7 +2395,8 @@ footer .politicas a{
 }
 
 footer{
-    height: 400px;
+    width: 100%;
+    height: 450px;
 }
 
 footer .logredsociales{
@@ -2428,7 +2434,9 @@ footer .redes i svg{
 footer .redes i svg:hover{
     color: #fd3089;
 }
-
+footer .sedes{
+    margin: 0px 30px 0px 0px;
+}
 footer .sedes h2{
     font-size: 20px;
 }
@@ -2450,7 +2458,6 @@ footer .lineasAtencion{
     color: white;
     text-decoration: none;
 }
-
 
 footer .lineasAtencion h2{
     font-size: 20px;
@@ -2477,7 +2484,7 @@ footer .politicas a{
 }
 
 }
-@media screen and (min-width: 1082px) and (max-width: 1281px) {
+@media screen and (min-width: 1265px) and (max-width: 1375px) {
 .section1{
     display: flex;
     flex-direction: row;
@@ -2567,10 +2574,9 @@ footer .politicas a{
 footer{
     height: 400px;
 }
-
 footer .logredsociales{
     width: 300px;
-    height: auto;
+    height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2579,23 +2585,23 @@ footer .logredsociales{
 }
 
 footer .logredsociales img{
-    width: 140px;
+    width: 160px;
     margin-top: 20px;
     margin-right: 30px;
 }
 
 footer .logredsociales .p{
-    margin-top: 15px;
+    margin-top: 16px;
     width: 200px;
     font-size: 11px;
 }
 
 footer .redes{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 footer .redes i svg{
-    margin: 0px 5px;
+    margin: 0px 8px;
     width: 20px;
     height: 20px;
 }
@@ -2603,7 +2609,6 @@ footer .redes i svg{
 footer .redes i svg:hover{
     color: #fd3089;
 }
-
 footer .sedes h2{
     font-size: 20px;
 }

@@ -1,592 +1,402 @@
+/* ESTILOS GENERALES */
+
+/* Establece el margen y el relleno en cero para todos los elementos */
 *{
     margin: 0%;
     padding: 0%;
 }
 
+/* Define la fuente predeterminada para el cuerpo del documento */
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
-header{
+/* CONTENEDOR GENERAL*/ 
+.cont-general{
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
-    align-items: center;
-    background-color: #EFEFEF;
+}
+
+/* MENU LATERAL*/ 
+.cont-general .sidebar{
+    width: 17%;
+    height: 100vh;
+    background-color: #303030;
+    overflow: hidden;
+}
+
+.cont-general .sidebar header{
     width: 100%;
-    height: 90px;
-}
-
-header .logo a img{
-    width: 260px;
-    margin-left: 50px;
-}
-
-header .soporteheader{
+    height: 100px;
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-right: 400px;
-}
-
-header .soporteheader .nayuda h2{
-    font-size: 14px;
-    margin-right: 15px;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-}
-
-header  .soporteheader .icons img{
-    width: 42px;
-}
-
-
-main{
-    width: 100%;
-}
-
-
-section{
-    width: 100%;
-    height: 800px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
 }
-
-section .tittle-grupo{
-    width: 95%;
-    height: 70px;
+.cont-general .sidebar header img{
+    margin: 10px 20px 0px 0px;
+}
+.cont-general .sidebar .cont-opciones{
+    width: 100%;
+    height: 450px;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+}
+.cont-general .sidebar .cont-opciones .opciones{
+    width: 100%;
+    height: 80%;
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
-section .tittle{
-    width: 20%;
-    margin-left: 60px;
+.cont-general .sidebar .cont-opciones .opciones ul{
+    width: 80%;
+    list-style: none;
 }
 
-section .tittle-grupo .container{
-    width: 63%;
+.cont-general .sidebar .cont-opciones .opciones ul li{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.cont-general .sidebar .cont-opciones .opciones ul li span{
+    color: white;
+    font-size: 27px;
+}
+.cont-general .sidebar .cont-opciones .opciones ul li p{
+    width: 200px;
+    margin: 10px 10px 10px 10px ;
+}
+
+/* Define estilos para las opciones en el menú lateral */
+.option {
+    cursor: pointer;
+}
+.option:focus,
+.option.active {
+    width: 100%;
     height: 100%;
+    background-color: #E71D73; /* Cambia el color de fondo aquí */
+    border-radius: 10px;
 }
-
-section .tittle h2{
-    margin-top: 40px;
-    margin-left: 20px;
-    font-size: 20px;
-}
-
-.panel-aspirantes{
-    width: 95%;
-    height: 800px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+/* CONTENEDOR MAIN GENERAL*/ 
+.cont-page-general{
+    width: 83%;
+    height: 100vh;
+    background-color: #ECECEC;
     overflow: hidden;
 }
 
-.groups{
+/* HEADER*/ 
+.cont-page-general header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
 }
 
-.panel-aspirantes .grup-cesde-as{
-    width: 20%;
-    height: 700px;
-    background-color: #EFEFEF;
-    margin-left: 60px;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.panel-aspirantes .grup-cesde-as .group-empre{
-    width: 70%;
-    height: 43px;
-    background-color: rgba(209, 209, 209, 0.692);
-    border-radius: 12px;
-    margin: 10px 0px;
+.cont-page-general header .cont-header{
+    width: 97%;
+    height: 80px;
+    background-color: #ECECEC;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
-
 }
 
-.panel-aspirantes .grup-cesde-as .group-empre:hover{
-    background-color: white;
-}
-.panel-aspirantes .grup-cesde-as .group-empre img{
-    width: 100px;
-    height: 20px;
-    margin-left: 30px;
-}
-
-.panel-aspirantes .grup-cesde-as .group-empre h2{
-    font-size: 17px;
+.cont-page-general header .cont-header .buscar{
+    display: flex;
     margin-right: 20px;
 }
 
-.panel-aspirantes .aspirante{
-    width: 63%;
-    height: 700px;
-    background-color: #EFEFEF;
-    border-radius: 25px;
-    overflow: hidden;
+.cont-page-general header .cont-header .buscar input{
+    margin-left: 90px;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 0px 15px 20px;
+    width: 330px;
+    height: 35px;
 }
 
-.panel-aspirantes .aspirante .tittle-aspirantes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 30px;
+.cont-page-general header .cont-header .user-profile img{
+    border-radius: 100%;
+    margin-right: 80px;
 }
 
-.panel-aspirantes .aspirante .tittle-aspirantes .opcions{
-    width: 80px;
-}
-
-.panel-aspirantes .aspirante .tittle-aspirantes #name{
-    width: 100px;
-    margin-right: 110px;
-}
-.panel-aspirantes .aspirante .list-aspirantes{
+/* HEADER*/ 
+main {
     width: 100%;
-    height: 100%;
+    height: calc(100vh - 100px); /* Ajusta la altura según sea necesario */
+    overflow-y: scroll; /* Agrega overflow-y: scroll aquí */
+}
+
+main .cont-main {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+main .cont-main .bann-welcome{
+    width: 1100px;
+    height: 400px;
+    margin-top: 50px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+main .cont-main .bann-welcome .gif{
+    width: 40%;
+    height: 90%;
+}
+
+main .cont-main .bann-welcome .gif img{
+    border-radius: 130px;
+}
+
+main .cont-main .bann-welcome .welcome{
+    width: 40%;
+    height: 90%;
+    margin-left: 50px;
+}
+
+main .cont-main .bann-welcome .welcome h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 70px;
+    color: #F8B000;
+}
+
+main .cont-main .bann-welcome .welcome P{
+    width: 400px;
+}
+
+.cont-targets{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-targets .targets{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.target {
+    width: 270px;
+    height: 210px;
+    background-color: #F6F6F6;
+    margin: 20px;
+    position: relative; /* Importante para que la posición absoluta de .etiqueta sea relativa a .target */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.target .etiqueta {
+    width: 60px;
+    height: 60px;
+    background-color: #E71D73;
+    position: absolute;
+    top: -25px; /* Ajusta la posición verticalmente según sea necesario */
+    height: 60px;
+    margin-left: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #ff7fb6;
+}
+
+.target .etiqueta svg,
+.target .etiqueta span{
+    font-size: 32px;
+    color: white;
+}
+
+.contenido{
+    display: none;
+}
+
+/* ESTILOS TABLA USUARIO */
+.cont-tablausuarios{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cont-tablausuarios .table{
+    width: 90%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 15px 20px 0px 0px;
+    overflow: hidden;
+}
+
+.cont-tablausuarios .table table tr,
+.cont-tablausuarios .table table td{
+    border: 1px solid rgba(219, 219, 219, 0.473);
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 12px;
+    padding: 0px 5px;
+}
+
+.cont-tablausuarios .table table tr th{
+    background-color: #353A3E;
+    color: rgba(255, 255, 255, 0.74);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0px 15px;
+    font-size: 12px;
+}
+
+
+/* ESTILOS TABLA DOCUMENTOS */
+.cont-tabladocumentos{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.cont-tabladocumentos .table{
+    width: 70%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 15px 20px 0px 0px;
+    overflow: hidden;
+}
+
+.cont-tabladocumentos .table table tr,
+.cont-tabladocumentos .table table td{
+    border: 1px solid rgba(219, 219, 219, 0.473);
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 15px;
+    padding: 0px 5px;
+}
+
+.cont-tabladocumentos .table table tr th{
+    background-color: #353A3E;
+    color: rgba(255, 255, 255, 0.74);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 17px;
+}
+
+/* ESTILOS TABLA PATROCINIO */
+
+.cont-tablapatrocinio{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cont-tablapatrocinio .table{
+    width: 70%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 15px 20px 0px 0px;
+    overflow: hidden;
+}
+.cont-tablapatrocinio .table table tr,
+.cont-tablapatrocinio .table table td{
+    border: 1px solid rgba(219, 219, 219, 0.473);
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 13px;
+    padding: 0px 5px;
+}
+
+.cont-tablapatrocinio .table table tr th{
+    background-color: #353A3E;
+    color: rgba(255, 255, 255, 0.74);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0px 15px;
+    font-size: 13px;
+}
+
+
+/* ESTILOS TABLA DEPARTAMENTO */
+
+.cont-tabladepartamento{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cont-tabladepartamento .table{
+    width: 50%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 15px 20px 0px 0px;
+    overflow: hidden;
+}
+.cont-tabladepartamento .table table tr,
+.cont-tabladepartamento .table table td{
+    border: 1px solid rgba(219, 219, 219, 0.473);
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 17px;
+    padding: 0px 15px;
+}
+
+.cont-tabladepartamento .table table tr th{
+    background-color: #353A3E;
+    color: rgba(255, 255, 255, 0.74);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0px 15px;
+    font-size: 20px;
+}
+
+
+/* ESTILOS BONOTES */
+.ops{
+    display: flex;
     margin: 10px;
 }
 
-.panel-aspirantes .aspirante .list-aspirantes .list{
-    width: 90%;
-    height: 45px;
-    background-color: rgba(209, 209, 209, 0.692);
-    margin-bottom: 15px;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    overflow: hidden;
-}
-.name {
-    width: 250px;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.cc-number {
-    width: 100px;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.phone-number {
-    width: 120px;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.email {
-    width: 180px;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.status-aspirante{
-    width: 80px;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.panel-aspirantes .aspirante .list-aspirantes .list h4{
-    font-size: 15px;
-    text-align: center;
-}
-
-.panel-aspirantes .aspirante .list-aspirantes .list .statusb{
-    width: 10px;
-    height: 10px;
-    background-color: #0dc94c;
-    border-radius: 100%;
-}
-
-.panel-aspirantes .aspirante .list-aspirantes .list .statusr{
-    width: 10px;
-    height: 10px;
-    background-color: #c9bc0d;
-    border-radius: 100%;
-}
-.panel-aspirantes .aspirante .list-aspirantes .list .statusm{
-    width: 10px;
-    height: 10px;
-    background-color: #c90d0d;
-    border-radius: 100%;
-}
-
-.panel-aspirantes .aspirante .list-aspirantes .opcions{
-    width: 150px;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.panel-aspirantes .aspirante .list-aspirantes .opcions svg{
-    color: #4e4e4e;
-    width: 19px;
-    height: 19px;
-}
-
-/* Ventanas Emergentes */
-
-#openview{
-    border: 0;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0);
-}
-
-#openview2{
-    border: 0;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0);
-}
-
-#openview3{
-    border: 0;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0);
-}
-
-.ventanasEmergentes {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semitransparente */
-    z-index: 9999; /* Valor alto para asegurarse de que esté por encima de otros elementos */
+.ops .btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    pointer-events: none;
-    opacity: 0;
 }
 
-.show{
-    pointer-events: auto;
-    opacity: 1;
-}
-
-.modal{
-    width: 850px;
-    height: 600px;
-    background-color: white;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.ventanasEmergentes .modal .exit{
-    width: 100%;
-}
-
-.ventanasEmergentes .modal .exit button{
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0);
-    border: 0;
-    float: right;
-    margin-right: 30px;
-}
-
-.ventanasEmergentes .content{
-    width: 100%;
-    height: 90%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.content .asp-info{
-    width: 30%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.profile{
-    width: 180px;
-    height: 200px;
-    background-color: #e0e0e0;
-    border-radius: 20px;
-}
-
-.info{
-    width: 200px;
-    height: 60px;
-    margin-top: 20px;
-}
-
-.info p{
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.contact{
-    width: 200px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.contact .telefono{
-    display: flex;
-    align-items: center;
-    margin: 10px 5px;
-}
-
-.contact .telefono p{
-    font-size: 13px;
-    font-weight:600;
-}
-
-.contact .mail{
-    display: flex;
-}
-
-.contact .mail p{
-    font-size: 13px;
-    font-weight:600;
-}
-
-.asp-info button{
-    background-color: #E71D73;
-    color: white;
-    border: none;
-    padding: 20px 20px;
-    border-radius: 10px;
-    margin-top: 30px;
-    font-weight: 600;
-}
-
-.asp-info button:hover{
-    background-color: #e71d75a1;
-}
-
-.content .documents{
-    width: 60%;
-    height: 95%;
-    overflow: hidden;
-}
-
-.tittle-d{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.tittle-d p{
-    font-size: 15px;
-    font-weight: 600;
-    margin-right: 5px;
-    margin-left: 10px;
-}
-
-.docs{
-    width: 100%;
-    height: 95%;
-    background-color: #ececec;
-    border-radius: 20px;
-    margin-top: 10px;
-}
-.docs-insuficientes{
-    width: 100%;
-    height: 95%;
-    background-color: #ececec;
-    border-radius: 20px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.docs-insuficientes .docs-info{
-    text-align: center;
-    font-size: 15px;
-    font-weight: 600;
-}
-.container-docs{
-    padding-top: 30px;
-}
-
-.docs-archivo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.docs-archivo .tittle-docs p{
-    width: 120px;
-    height: 30px;
-    font-size: 13px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.doc{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 60%;
+.btn-success,
+.btn-danger{
+    width: 35px;
     height: 35px;
-    background-color: rgb(219, 219, 219);
-    margin: 10px 0px;
-    border-radius: 10px;
-}
-
-.doc p{
-    font-size: 13px;
-    font-weight: 600;
-}
-
-.doc button{
-    border: none;
-    background-color: #42424200;
-}
-
-footer{
-    width: 100%;
-    height: 400px;
-    background-color: #424242;
-    color: white;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-footer .logredsociales{
-    width: 300px;
-    height: 200px;
-    margin-left: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    font-size: 11px;
-}
-
-footer .logredsociales img{
-    width: 160px;
-    margin-top: 20px;
-}
-
-footer .logredsociales .p{
-    margin-top: 17px;
-    margin-left: 30px;
-    width: 200px;
-    font-size: 11px;
-}
-
-footer .redes{
-    margin-top: 25px;
-    margin-left: 40px;
-}
-
-footer .redes i svg{
-    margin: 0px 8px;
-    width: 20px;
-    height: 20px;
-}
-
-footer .redes i svg:hover{
-    color: #fd3089;
-}
-
-footer .sedes h2{
-    font-size: 20px;
-}
-
-footer .sedes hr,
-footer .lineasAtencion hr {
-    border: none; /* Quita el borde predeterminado */
-    border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
-    margin: 2px 0px 10px 0px;
-}
-
-footer .sedes ul{
-    font-size: 15px;
-    font-weight: 300;
-}
-
-footer .lineasAtencion{
-    margin-bottom: 41px;
-}
-
-footer .lineasAtencion h2{
-    font-size: 20px;
-}
-
-footer .lineasAtencion ul{
-    font-size: 15px;
-    font-weight: 300;
-}
-
-
-footer .politicas{
-    font-size: 15px;
-    margin-right: 40px;
-}
-
-footer .politicas ul{
-    list-style-type: none;
-    margin-top: 10px;
-    
-}
-
-footer .politicas a{
-    color: white;
-    text-decoration: none;
+    border-radius: 20px;
+    margin-left: 10px;
 }
