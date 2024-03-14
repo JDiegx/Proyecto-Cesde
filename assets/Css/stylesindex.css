@@ -900,6 +900,10 @@ footer .politicas a{
             color: #fd3089;
         }
         
+        footer .sedes {
+            width: 240px;
+        }
+        
         footer .sedes h2{
             font-size: 20px;
         }
@@ -1379,6 +1383,9 @@ footer .politicas a{
         footer .redes i svg:hover{
             color: #fd3089;
         }
+        footer .sedes {
+            width: 240px;
+        }
         
         footer .sedes h2{
             font-size: 20px;
@@ -1847,7 +1854,9 @@ header nav button:hover{
     footer .redes i svg:hover{
         color: #fd3089;
     }
-    
+    footer .sedes {
+        width: 240px;
+    }
     footer .sedes h2{
         font-size: 20px;
     }
