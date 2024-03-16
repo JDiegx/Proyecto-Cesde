@@ -1,163 +1,37 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
-
-body{
-    font-family: 'Open Sans', sans-serif;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    background-color: #EFEFEF;
-    width: 100%;
-    height: 90px;
-}
-
-header .logo a img{
-    width: 260px;
-    margin-left: 50px;
-}
-
-header .soporteheader{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-right: 400px;
-}
-
-header .soporteheader .nayuda h2{
-    font-size: 14px;
-    margin-right: 15px;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-}
-
-header  .soporteheader .icons img{
-    width: 42px;
-}
-
-
-main{
-    width: 100%;
-    height: 600px;
-}
-
-
-
-
-
-footer{
-    width: 100%;
-    height: 400px;
-    background-color: #424242;
-    color: white;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-footer .logredsociales{
-    width: 300px;
-    height: 200px;
-    margin-left: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    font-size: 11px;
-}
-
-footer .logredsociales img{
-    width: 160px;
-    margin-top: 20px;
-}
-
-footer .logredsociales .p{
-    margin-top: 17px;
-    margin-left: 20px;
-    width: 190px;
-    font-size: 11px;
-}
-
-footer .redes{
-    margin-top: 25px;
-    margin-left: 40px;
-}
-
-footer .redes i svg{
-    margin: 0px 8px;
-    width: 20px;
-    height: 20px;
-}
-
-footer .redes i svg:hover{
-    color: #fd3089;
-}
-
-footer .sedes h2{
-    font-size: 20px;
-}
-
-footer .sedes hr,
-footer .lineasAtencion hr {
-    border: none; /* Quita el borde predeterminado */
-    border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
-    margin: 2px 0px 10px 0px;
-}
-
-footer .sedes ul{
-    font-size: 15px;
-}
-
-footer .lineasAtencion{
-    margin-bottom: 41px;
-}
-
-footer .lineasAtencion h2{
-    font-size: 20px;
-}
-
-footer .lineasAtencion ul{
-    font-size: 15px;
-}
-
-
-footer .politicas{
-    font-size: 15px;
-    margin-right: 40px;
-}
-
-footer .politicas ul{
-    list-style-type: none;
-    margin-top: 10px;
-}
-
-footer .politicas a{
-    color: white;
-    text-decoration: none;
-}
-
-
-main{
+.title{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    height: 800px;
 }
 
+.bg{
+    background-color: #EFEFEF !important;
+}
+
+.br{
+    border-radius: 20px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon>span{
+    color: #E71D73;
+    margin-left: 1rem !important;
+}
 
 .Formulario{
     display: flex;
     align-items: center;
     background-color:rgb(231, 231, 231);
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     justify-content: center;
     font-weight: bolder;
     border-radius: 20px;
@@ -195,44 +69,28 @@ input{
     display: flex;
 }
 
-
 .Buttons{
     display: flex;
     margin-top: 2%;
     flex-direction: row;
+    justify-content: center;
 }
 
-button{
-    
+button{ 
     width: 140px;
     height: 32px;
-    border-radius: 8px;
+    border-radius: 8px !important;
     border: none;
     background-color: #E71D73;
     color: white;
 }
 
-.Bienvenida{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.anterior{
+    margin-right: 50px;
 }
 
-.Bienvenida>h5{
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-
-.icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.icon>span{
-    color: #E71D73;
-    margin-left: 20px;
+.siguiente{
+    margin-left: 50px;
 }
 
 .circles{
@@ -241,6 +99,56 @@ button{
     width: 100px;
 }
 
-.circles>a{
-    color: #808080;
+@media (min-width: 0px) and (max-width: 426px) {
+    
+    .title>h2{
+        font-size: 1.40rem !important;
+    }
+
+    .title>h6{
+        font-size: 0.80rem;
+    }
+
+    .title{
+        width: 100%;
+    }
+
+    .label{
+        display: flex;
+        flex-direction: column;
+    }
+
+    label{
+        margin-bottom: 1rem !important;
+    }
+
+    input{
+        width:  65% !important;
+    }
+
+    .anterior{
+        margin: 0;
+    }
+
+    .siguiente{
+        margin: 0;
+    }
+
+    button{
+        width: 100px;
+    }
+    
+    .circles{
+        width: 80px;
+    }
+
+    .Buttons{
+        width: 100%;
+    }
+
+    .Formulario{
+        width: 100%;
+        margin: 0;
+    }
+
 }

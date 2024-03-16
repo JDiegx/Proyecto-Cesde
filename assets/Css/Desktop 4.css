@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 *{
     margin: 0%;
     padding: 0%;
@@ -143,89 +144,57 @@ footer .politicas a{
 }
 
 main{
+=======
+.title{
+>>>>>>> Stashed changes
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+<<<<<<< Updated upstream
     height: 800px;
     
+=======
+>>>>>>> Stashed changes
 }
 
-
-.Formulario{
-    display: flex;
-    align-items: center;
-    color: (231, 231, 231);
-    width: 60%;
-    height: 150%;
-    justify-content: space-evenly;
-    font-weight: bolder;
-    background-color: rgb(231, 231, 231);
-    border-radius: 20px;
+select{
+    width: 420px !important;
 }
 
-.Center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 90%;
-    width: 50;
+select>option{
+    width: 420px !important;
 }
 
 input{
-    padding: 12px;
-    width: 320px;
-    border-radius: 8px;
-    border: none;
+    width: 320px !important;
 }
 
-.tamaño{
-    width: 250px;
+.bg{
+    background-color: #EFEFEF !important;
 }
 
-label{
-    font-weight: bold;
+.br{
+    border-radius: 20px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .Buttons{
     display: flex;
     margin-top: 2%;
     flex-direction: row;
+    justify-content: center;
 }
 
-button{
-    
+button{ 
     width: 140px;
     height: 32px;
-    border-radius: 8px;
+    border-radius: 8px !important;
     border: none;
     background-color: #E71D73;
     color: white;
-}
-
-
-.Bienvenida{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-}
-
-.Bienvenida>h5{
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-
-select{
-    padding: 10px;
-    width: 344px;
-    border-radius: 8px;
-    border: none;      
-}
-
-.material-symbols-outlined{
-    color: gray;
 }
 
 .circles{
@@ -234,7 +203,44 @@ select{
     width: 100px;
 }
 
+<<<<<<< Updated upstream
 footer{
     margin-top: 70px;
     height: 240px;
+=======
+label{
+    font-weight: bolder;
+}
+
+@media (max-width: 425px) {
+    
+    .title>h2{
+        font-size: 1.40rem !important;
+    }
+
+    .title>h6{
+        font-size: 0.80rem;
+    }
+
+    .anterior{
+        margin: 0;
+    }
+
+    .siguiente{
+        margin: 0;
+    }
+
+    button{
+        width: 100px;
+    }
+    
+    .circles{
+        width: 80px;
+    }
+
+    input{
+        width: 50%;
+    }
+
+>>>>>>> Stashed changes
 }
