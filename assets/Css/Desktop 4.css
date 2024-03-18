@@ -1,3 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 90px;
+}
+
+header .logo a img{
+    width: 260px;
+    margin-left: 50px;
+}
+
+header .soporteheader{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 400px;
+}
+
+header .soporteheader .nayuda h2{
+    font-size: 14px;
+    margin: 0px 15px 0px 0px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header  .soporteheader .icons img{
+    width: 42px;
+}
+
+
+.cont-bienvenido{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cont-bienvenido .bienvenido{
+}
+.cont-bienvenido .bienvenido h1{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.cont-bienvenido .bienvenido p{
+    font-size: 19px;
+    font-weight: 600;
+    color: black;
+}
+
 .title{
     display: flex;
     justify-content: center;
@@ -51,7 +113,8 @@ button{
 }
 
 label{
-    font-weight: bolder;
+    font-weight: 600;
+    margin-left: 10px;
 }
 
 @media (max-width: 425px) {
