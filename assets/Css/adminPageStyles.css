@@ -298,7 +298,8 @@ main .cont-main .bann-welcome .welcome P{
     font-size: 14px;
 }
 
-.button-newuser .btn svg{
+.button-newuser .btn svg,
+.button-newuser .btn span {
     margin-right: 10px;
 }
 
@@ -340,6 +341,10 @@ main .cont-main .bann-welcome .welcome P{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.centercamp .btn svg,
+.centercamp .btn span{
+    margin-right: 5px;
 }
 /* ESTILOS BONOTES */
 
