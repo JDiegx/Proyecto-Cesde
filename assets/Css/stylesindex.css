@@ -1440,7 +1440,7 @@ footer .politicas a{
             text-decoration: none;
         }
 }
-@media screen and (min-width: 601px) and (max-width: 900px){
+@media screen and (min-width: 601px) and (max-width: 901px){
 header{
     display: flex;
     justify-content: space-between;
