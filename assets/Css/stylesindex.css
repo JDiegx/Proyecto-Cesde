@@ -1,0 +1,2671 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 90px;
+}
+
+header .logo a img{
+    width: 260px;
+    margin-left: 50px;
+}
+
+header nav a button{
+    background-color: #E71D73;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 120px;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    transition: background-color 0.3s ease; /* Agregamos transición */
+}
+
+header nav button:hover{
+    background-color: #ff4c9acb;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.section1 .cesdecincuenta{
+    width: 850px;
+}
+
+.cesdecincuenta{
+    color: #535353;
+}
+
+.section1 .cesdecincuenta h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section1 .cesdecincuenta h5{
+    font-size: 15px;
+    margin: 10px 0px;
+    font-weight: 700;
+}
+
+.section1 .cesdecincuenta p{
+    font-size: 15px;
+}
+
+.section1 .img{
+    width: 300px;
+}
+.section1 .img img{
+    width: 320px;
+}
+
+.section2{
+    width: 100%;
+    height: 520px;
+    background-color: #EFEFEF;
+    color: #535353;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.container-sect2{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.container-sect2 .space{
+    width: 300px;
+    height: 100%;
+}
+
+.historia{
+    background-color: #EFEFEF;
+    width: 900px;
+}
+.section2 .historia h2{
+    font-size: 33px;
+}
+.section2 .historia p{
+    font-size: 15px;
+}
+
+
+.section2 .targets{
+    width: 100%;
+    height: 200px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.section2 .targets h2{
+    text-align: center;
+    font-size: 22px;
+    color: #E71D73;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+.section2 .targets .target{
+    width: 300px;
+    height: 190px;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
+.section2 .targets .target hr{
+    border: 2px solid #E71D73;
+}
+
+.section2 .targets .target img{
+    width: 100%;
+}
+
+.section2 .targets .target p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.section2 .targets .targetlarge p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #535353;
+}
+.section2 .targets .targetlarge{
+    width: 300px;
+    height: 210px;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.section2 .targets .targetlarge hr{
+    border: 2px solid #E71D73;
+}
+
+.section2 .targets .targetlarge img{
+    width: 100%;
+}
+
+.section2 .targets .targetlarge p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #535353;
+}
+/* SECTION #3 Styles */
+
+.section3{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 .general3{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.section3 .general3 .tittle h2{
+    font-size: 23px;
+    color: #E71D73;
+    margin: -5px 0px 0px 0px;
+
+}
+
+.section3 .general3 .tittle p{
+    font-size: 17px;
+    color: #535353;
+    margin: 10px 0px 20px 0px;
+}
+
+.section3 .general3 .tags-etapas{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.section3 .general3 .tags-etapas .img img{
+    width: 404px;
+    height: 324px;
+}
+
+.section3 .general3 .tags-etapas .electiva ,
+.section3 .general3 .tags-etapas .eproductiva{
+    border: 2px solid #E71D73;
+    width: 400px;
+    height: 320px;
+}
+
+.section3 .general3 .tags-etapas .electiva{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section3 .general3 .tags-etapas .electiva .etapa{
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 40px;
+    background-color: #E71D73;
+    border: 2px solid #E71D73;
+    transition: background-color 0.3s ease; 
+}
+
+.section3 .general3 .tags-etapas .electiva .etapa:hover{
+    background-color: white;
+    color: #E71D73;
+    border: 2px solid #E71D73;
+}
+
+.section3 .general3 .tags-etapas .electiva .duracion{
+    margin: 50px 0px;
+    font-size: 20px;
+    color: #535353;
+}
+
+
+.section3 .general3 .tags-etapas .electiva .sostenimiento{
+    border: 3px solid #E71D73;
+    color: #535353;
+    width: 270px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.section3 .general3 .tags-etapas .electiva .sostenimiento h3 strong{
+    color: #EFC75B;
+}
+
+
+
+.section3 .general3 .tags-etapas .eproductiva{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 .general3 .tags-etapas .eproductiva .etapa{
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 40px;
+    background-color: #E71D73;
+    border: 2px solid #E71D73;
+    transition: background-color 0.3s ease;
+}
+
+.section3 .general3 .tags-etapas .eproductiva .etapa:hover{
+    background-color: white;
+    color: #E71D73;
+    border: 2px solid #E71D73;
+}
+
+.section3 .general3 .tags-etapas .eproductiva .duracion{
+    margin: 43px 0px;
+    font-size: 18px;
+    color: #535353;
+}
+
+
+.section3 .general3 .tags-etapas .eproductiva .sostenimiento{
+    border: 3px solid #E71D73;
+    color: #535353;
+    width: 270px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.section3 .general3 .tags-etapas .eproductiva .sostenimiento h3{
+    font-size: 15.5px;
+}
+.section3 .general3 .tags-etapas .eproductiva .sostenimiento h3 strong{
+    color: #EFC75B;
+}
+.section3 .general3 .descrip{
+    width: 100%;
+    height: 250px;
+    margin-top: -5px;
+    background-color: #E71D73;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+}
+.section4 {
+    width: 100%;
+    height: 700px; 
+    overflow-x: auto;
+    white-space: nowrap; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.section4{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 img{
+    width: 1500px;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #424242;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer .logredsociales{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+}
+
+footer .logredsociales img{
+    width: 160px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+footer .logredsociales .p{
+    margin-top: 16px;
+    width: 200px;
+    font-size: 11px;
+}
+
+footer .redes{
+    margin-top: 25px;
+}
+
+footer .redes i svg{
+    margin: 0px 8px;
+    width: 20px;
+    height: 20px;
+}
+
+footer .redes i svg:hover{
+    color: #fd3089;
+}
+
+footer .sedes h2{
+    font-size: 20px;
+}
+
+footer .sedes hr,
+footer .lineasAtencion hr {
+    border: none;
+    border-top: 2px solid #E71D73; 
+    margin: 2px 0px 10px 0px;
+}
+
+footer .sedes ul{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+footer .lineasAtencion{
+    margin-bottom: 41px;
+}
+
+footer .lineasAtencion h2{
+    font-size: 20px;
+}
+
+footer .lineasAtencion ul{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+footer .politicas{
+    font-size: 15px;
+}
+
+footer .politicas ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+footer .politicas a{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and  (max-width: 354px){
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        background-color: #EFEFEF;
+        width: 100%;
+        height: 90px;
+        overflow: hidden;
+    }
+    
+    header .logo a img{
+        width: 210px;
+        height: 50px;
+        margin-left: 0px;
+    }
+    
+    header nav a button{
+        background-color: #E71D73;
+        color: white;
+        width: 90px;
+        height: 35px;
+        border-radius: 10px;
+        border: none;
+        margin-right: 30px;
+        font-size: 15px;
+        font-weight: bolder;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        transition: background-color 0.3s ease; /* Agregamos transición */
+    }
+    
+    header nav button:hover{
+        background-color: #ff4c9acb;
+    } 
+    .section1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+        .section1 .cesdecincuenta{
+            width: 290px;
+            color: #535353;
+            margin-top: 30px;
+        }
+        .section1 .cesdecincuenta h2{
+            width: 100%;
+            font-size: 23px;
+            font-weight: 700;
+        }
+        .section1 .cesdecincuenta h5{
+            font-size: 14px;
+            margin: 10px 0px;
+            font-weight: 700;
+        }
+        .section1 .cesdecincuenta p{
+            font-size: 13px;
+        }
+        .section1 .img{
+            width: 300px;
+        }
+        .section1 .img img{
+            width: 290px;
+            margin-bottom: -5px;
+        }
+        
+        
+        .section2{
+            width: 100%;
+            height: 500px;
+            background-color: #EFEFEF;
+            color: #535353;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            overflow: hidden;
+        }
+    
+        .container-sect2{
+            width: 100%;
+            height: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .container-sect2 .space{
+            display: none;
+        }
+        .historia{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 370px;
+        }
+
+        .section2 .container-sect2 .historia h2{
+            width: 90%;
+            height: auto;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        .section2 .container-sect2 .historia P br {
+            display: none;
+        }
+        .section2 .container-sect2 .historia P {
+            width: 90%;
+            height: auto;
+            font-size: 12px;
+        }
+        .scroll {
+            overflow-x: auto;
+            scroll-behavior: smooth; /* Agrega un desplazamiento suave */
+            white-space: nowrap; /* Evita que los elementos se envuelvan */
+        }
+        .section2 .targets{
+            width: 260%;
+            height: auto;
+            margin: 0px auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            align-items: baseline;
+    
+        }
+        
+        .section2 .targets h2{
+            text-align: center;
+            font-size: 22px;
+            color: #E71D73;
+            font-weight: bolder;
+            margin-top: 40px;
+        }
+        .section2 .targets .target{
+            width: 240px;
+            height: 170px;
+            background-color: white;
+            overflow: hidden;
+            margin: 0px 10px;
+        }
+        
+        
+        .section2 .targets .target hr{
+            border: 2px solid #E71D73;
+        }
+        
+        .section2 .targets .target img{
+            width: 100%;
+        }
+        
+        .section2 .targets .target p{
+            text-align: center;
+            margin-top: 5px;
+            font-size: 15px;
+            color: #535353;
+        }
+        
+        .section2 .targets .targetlarge{
+            width: 240px;
+            height: 190px;
+            background-color: white;
+            overflow: hidden;
+            margin: 0px 10px;
+        }
+        
+        
+        .section2 .targets .targetlarge hr{
+            border: 2px solid #E71D73;
+        }
+        
+        .section2 .targets .targetlarge img{
+            width: 100%;
+        }
+        
+        .section2 .targets .targetlarge p{
+            text-align: center;
+            margin-top: 5px;
+            font-size: 15px;
+            color: #535353;
+        }
+        
+        .container-sect2 .space{
+            display: none;
+        }
+        .container-sect2 .historia P{
+            font-size: 14px;
+        }
+        
+        .section3{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .section3 .general3{
+            width: 900px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            margin-top: 50px;
+        }
+        .section3 .general3 .tittle{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .section3 .general3 .tittle h2{
+            width: 90%;
+            font-size: 21px;
+        }
+        .section3 .general3 .tittle p br{
+            display: none;
+        }
+        .section3 .general3 .tittle p{
+            width: 90%;
+            font-size: 13px;
+        }
+        .section3 .general3 .tags-etapas{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        
+        
+        .section3 .general3 .tags-etapas .img img{
+            width: 400px;
+            height: 400px;
+            margin-top: 30px;
+            margin-bottom: -8px;
+        }
+        
+        .section3 .general3 .tags-etapas .electiva ,
+        .section3 .general3 .tags-etapas .eproductiva{
+            border: 2px solid #E71D73;
+            width: 400px;
+            height: 400px;
+        }
+        
+        .section3 .general3 .tags-etapas .electiva{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .section3 .general3 .tags-etapas .electiva .etapa{
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 260px;
+            border-radius: 10px;
+            font-size: 14px;
+            height: 40px;
+            background-color: #E71D73;
+            border: 2px solid #E71D73;
+            transition: background-color 0.3s ease; 
+        }
+        
+        .section3 .general3 .tags-etapas .electiva .etapa:hover{
+            background-color: white;
+            color: #E71D73;
+            border: 2px solid #E71D73;
+        }
+        
+        .section3 .general3 .tags-etapas .electiva .duracion{
+            margin: 50px 0px;
+            font-size: 18px;
+            color: #535353;
+        }
+        
+        
+        .section3 .general3 .tags-etapas .electiva .sostenimiento{
+            border: 3px solid #E71D73;
+            color: #535353;
+            width: 270px;
+            height: 60px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .section3 .general3 .tags-etapas .electiva .sostenimiento h3 strong{
+            color: #EFC75B;
+        }
+        
+        
+        
+        .section3 .general3 .tags-etapas .eproductiva{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .section3 .general3 .tags-etapas .eproductiva .etapa{
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 260px;
+            border-radius: 10px;
+            font-size: 14px;
+            height: 40px;
+            background-color: #E71D73;
+            border: 2px solid #E71D73;
+            transition: background-color 0.3s ease; /* Agregamos transición */
+        }
+        
+        .section3 .general3 .tags-etapas .eproductiva .etapa:hover{
+            background-color: white;
+            color: #E71D73;
+            border: 2px solid #E71D73;
+        }
+        
+        .section3 .general3 .tags-etapas .eproductiva .duracion{
+            margin: 43px 0px;
+            font-size: 17px;
+            color: #535353;
+        }
+        
+        
+        .section3 .general3 .tags-etapas .eproductiva .sostenimiento{
+            border: 3px solid #E71D73;
+            color: #535353;
+            width: 270px;
+            height: 60px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .section3 .general3 .tags-etapas .eproductiva .sostenimiento h3{
+            font-size: 15.5px;
+        }
+        .section3 .general3 .tags-etapas .eproductiva .sostenimiento h3 strong{
+            color: #EFC75B;
+        }
+        .section3 .general3 .descrip p br{
+            display: none;
+        }
+        .section3 .general3 .container-descrip{
+            width: 100%;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+        }
+        .section3 .general3 .descrip{
+            width: 400px;
+            height: 140px;
+            background-color: #E71D73;
+            color: white;
+            font-size: 14px;
+        }
+        
+        .section4{
+            width: 100%;
+            height: 500px;
+            display: none;
+        }
+        .section4 img{
+            width: 1600px;
+            border-radius: 20px;
+            margin-bottom: 100px;
+        }
+        
+        footer{
+            height: 950px;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+        
+        footer .logredsociales{
+            width: 350px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            font-size: 11px;
+        }
+        
+        footer .logredsociales img{
+            width: 180px;
+            margin-top: 0px;
+            margin-right: 0px;
+        }
+        
+        footer .logredsociales .p{
+            margin-top: 15px;
+            width: 250px;
+            font-size: 13px;
+            text-align: center;
+        }
+        
+        footer .redes{
+            width: 80%;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        
+        footer .redes i svg{
+            margin: 0px 5px;
+            width: 25px;
+            height: 25px;
+        }
+        
+        footer .redes i svg:hover{
+            color: #fd3089;
+        }
+        
+        footer .sedes {
+            width: 240px;
+        }
+        
+        footer .sedes h2{
+            font-size: 20px;
+        }
+        
+        footer .sedes hr,
+        footer .lineasAtencion hr {
+            border: none; /* Quita el borde predeterminado */
+            border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+            margin: 2px 0px 10px 0px;
+        }
+        
+        footer .sedes ul{
+            font-size: 13px;
+            font-weight: 300;
+        }
+        
+        footer .lineasAtencion{
+            margin-bottom: 35px;
+            color: white;
+            text-decoration: none;
+        }
+        
+        
+        footer .lineasAtencion h2{
+            font-size: 20px;
+        }
+        
+        footer .lineasAtencion ul{
+            font-size: 13px;
+            font-weight: 300;
+        }
+        footer .politicas{
+            font-size: 13px;
+        }
+        footer .politicas {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        footer .politicas ul{
+            list-style-type: none;
+            margin-top: 24px;
+            text-align: center;
+        }
+        
+        footer .politicas a{
+            color: white;
+            text-decoration: none;
+        }
+}
+@media screen and (min-width: 355px) and (max-width: 600px){ 
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        background-color: #EFEFEF;
+        width: 100%;
+        height: 90px;
+        overflow: hidden;
+    }
+    
+    header .logo a img{
+        width: 230px;
+        height: 50px;
+        margin-left: 0px;
+    }
+    
+    header nav a button{
+        background-color: #E71D73;
+        color: white;
+        width: 90px;
+        height: 35px;
+        border-radius: 10px;
+        border: none;
+        margin-right: 30px;
+        font-size: 15px;
+        font-weight: bolder;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        transition: background-color 0.3s ease; /* Agregamos transición */
+    }
+    
+    header nav button:hover{
+        background-color: #ff4c9acb;
+    } 
+    .section1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+        .section1 .cesdecincuenta{
+            width: 340px;
+        }
+        .cesdecincuenta{
+            color: #535353;
+            margin-top: 50px;
+        }
+        .section1 .cesdecincuenta h2{
+            font-size: 27px;
+            font-weight: 700;
+        }
+        .section1 .cesdecincuenta h5{
+            font-size: 15px;
+            margin: 10px 0px;
+            font-weight: 700;
+        }
+        .section1 .cesdecincuenta p{
+            font-size: 13px;
+        }
+        .section1 .img{
+            width: 300px;
+        }
+        .section1 .img img{
+            width: 280px;
+            margin-bottom: -5px;
+        }
+        
+        
+        .section2{
+            width: 100%;
+            height: 500px;
+            background-color: #EFEFEF;
+            color: #535353;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            overflow: hidden;
+        }
+    
+        .container-sect2{
+            width: 100%;
+            height: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .container-sect2 .space{
+            display: none;
+        }
+        .historia{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 370px;
+        }
+
+        .section2 .container-sect2 .historia h2{
+            width: 90%;
+            height: auto;
+            font-size: 27px;
+            margin-bottom: 5px;
+        }
+        .section2 .container-sect2 .historia P br {
+            display: none;
+        }
+        .section2 .container-sect2 .historia P {
+            width: 90%;
+            height: auto;
+            font-size: 12px;
+        }
+        .scroll {
+            overflow-x: auto;
+            scroll-behavior: smooth; /* Agrega un desplazamiento suave */
+            white-space: nowrap; /* Evita que los elementos se envuelvan */
+        }
+        .section2 .targets{
+            width: 230%;
+            height: auto;
+            margin: 0px auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            align-items: baseline;
+    
+        }
+        
+        .section2 .targets h2{
+            text-align: center;
+            font-size: 22px;
+            color: #E71D73;
+            font-weight: bolder;
+            margin-top: 40px;
+        }
+        .section2 .targets .target{
+            width: 240px;
+            height: 170px;
+            background-color: white;
+            overflow: hidden;
+            margin: 0px 10px;
+        }
+        
+        
+        .section2 .targets .target hr{
+            border: 2px solid #E71D73;
+        }
+        
+        .section2 .targets .target img{
+            width: 100%;
+        }
+        
+        .section2 .targets .target p{
+            text-align: center;
+            margin-top: 5px;
+            font-size: 15px;
+            color: #535353;
+        }
+        
+        .section2 .targets .targetlarge{
+            width: 240px;
+            height: 190px;
+            background-color: white;
+            overflow: hidden;
+            margin: 0px 10px;
+        }
+        
+        
+        .section2 .targets .targetlarge hr{
+            border: 2px solid #E71D73;
+        }
+        
+        .section2 .targets .targetlarge img{
+            width: 100%;
+        }
+        
+        .section2 .targets .targetlarge p{
+            text-align: center;
+            margin-top: 5px;
+            font-size: 15px;
+            color: #535353;
+        }
+        
+        .container-sect2 .space{
+            display: none;
+        }
+        .container-sect2 .historia P{
+            font-size: 14px;
+        }
+        
+        .section3{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .section3 .general3{
+            width: 900px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            margin-top: 50px;
+        }
+        .section3 .general3 .tittle{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .section3 .general3 .tittle h2{
+            width: 90%;
+        }
+        .section3 .general3 .tittle p br{
+            display: none;
+        }
+        .section3 .general3 .tittle p{
+            width: 90%;
+            font-size: 15px;
+        }
+        .section3 .general3 .tags-etapas{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        
+        
+        .section3 .general3 .tags-etapas .img img{
+            width: 400px;
+            height: 400px;
+            margin-top: 30px;
+            margin-bottom: -8px;
+        }
+        
+        .section3 .general3 .tags-etapas .electiva ,
+        .section3 .general3 .tags-etapas .eproductiva{
+            border: 2px solid #E71D73;
+            width: 400px;
+            height: 400px;
+        }
+        
+        .section3 .general3 .tags-etapas .electiva{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .section3 .general3 .tags-etapas .electiva .etapa{
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 260px;
+            border-radius: 10px;
+            font-size: 14px;
+            height: 40px;
+            background-color: #E71D73;
+            border: 2px solid #E71D73;
+            transition: background-color 0.3s ease; /* Agregamos transición */
+        }
+        
+        .section3 .general3 .tags-etapas .electiva .etapa:hover{
+            background-color: white;
+            color: #E71D73;
+            border: 2px solid #E71D73;
+        }
+        
+        .section3 .general3 .tags-etapas .electiva .duracion{
+            margin: 50px 0px;
+            font-size: 18px;
+            color: #535353;
+        }
+        
+        
+        .section3 .general3 .tags-etapas .electiva .sostenimiento{
+            border: 3px solid #E71D73;
+            color: #535353;
+            width: 270px;
+            height: 60px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .section3 .general3 .tags-etapas .electiva .sostenimiento h3 strong{
+            color: #EFC75B;
+        }
+
+        .section3 .general3 .tags-etapas .eproductiva{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .section3 .general3 .tags-etapas .eproductiva .etapa{
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 260px;
+            border-radius: 10px;
+            font-size: 14px;
+            height: 40px;
+            background-color: #E71D73;
+            border: 2px solid #E71D73;
+            transition: background-color 0.3s ease; /* Agregamos transición */
+        }
+        
+        .section3 .general3 .tags-etapas .eproductiva .etapa:hover{
+            background-color: white;
+            color: #E71D73;
+            border: 2px solid #E71D73;
+        }
+        
+        .section3 .general3 .tags-etapas .eproductiva .duracion{
+            margin: 43px 0px;
+            font-size: 17px;
+            color: #535353;
+        }
+        
+        
+        .section3 .general3 .tags-etapas .eproductiva .sostenimiento{
+            border: 3px solid #E71D73;
+            color: #535353;
+            width: 270px;
+            height: 60px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .section3 .general3 .tags-etapas .eproductiva .sostenimiento h3{
+            font-size: 15.5px;
+        }
+        .section3 .general3 .tags-etapas .eproductiva .sostenimiento h3 strong{
+            color: #EFC75B;
+        }
+        .section3 .general3 .descrip p br{
+            display: none;
+        }
+        .section3 .general3 .container-descrip{
+            width: 100%;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+        }
+        .section3 .general3 .descrip{
+            width: 400px;
+            height: 140px;
+            background-color: #E71D73;
+            color: white;
+            font-size: 16px;
+        }
+        
+        .section4{
+            width: 100%;
+            height: 500px;
+            display: none;
+        }
+        .section4 img{
+            width: 1600px;
+            border-radius: 20px;
+            margin-bottom: 100px;
+        }
+        
+        footer{
+            height: 950px;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+        
+        footer .logredsociales{
+            width: 350px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            font-size: 11px;
+        }
+        
+        footer .logredsociales img{
+            width: 180px;
+            margin-top: 0px;
+            margin-right: 0px;
+        }
+        
+        footer .logredsociales .p{
+            margin-top: 15px;
+            width: 250px;
+            font-size: 13px;
+            text-align: center;
+        }
+        
+        footer .redes{
+            width: 80%;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        
+        footer .redes i svg{
+            margin: 0px 5px;
+            width: 25px;
+            height: 25px;
+        }
+        
+        footer .redes i svg:hover{
+            color: #fd3089;
+        }
+        footer .sedes {
+            width: 240px;
+        }
+        
+        footer .sedes h2{
+            font-size: 20px;
+        }
+        
+        footer .sedes hr,
+        footer .lineasAtencion hr {
+            border: none; /* Quita el borde predeterminado */
+            border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+            margin: 2px 0px 10px 0px;
+        }
+        
+        footer .sedes ul{
+            font-size: 13px;
+            font-weight: 300;
+        }
+        
+        footer .lineasAtencion{
+            margin-bottom: 35px;
+            color: white;
+            text-decoration: none;
+        }
+        
+        footer .lineasAtencion h2{
+            font-size: 20px;
+        }
+        
+        footer .lineasAtencion ul{
+            font-size: 13px;
+            font-weight: 300;
+        }
+
+        footer .politicas{
+            font-size: 14px;
+
+        }
+        footer .politicas {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        footer .politicas ul{
+            list-style-type: none;
+            margin-top: 25px;
+            text-align: center;
+        }
+        
+        footer .politicas a{
+            color: white;
+            text-decoration: none;
+        }
+}
+@media screen and (min-width: 601px) and (max-width: 901px){
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 90px;
+}
+
+header .logo a img{
+    width: 260px;
+    margin-left: 30px;
+}
+
+header nav a button{
+    background-color: #E71D73;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 80px;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    transition: background-color 0.3s ease; /* Agregamos transición */
+}
+
+header nav button:hover{
+    background-color: #ff4c9acb;
+}
+
+.section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .section1 .cesdecincuenta{
+        width: 510px;
+    }
+    .cesdecincuenta{
+        color: #535353;
+        margin-top: 50px;
+    }
+    .section1 .cesdecincuenta h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .section1 .cesdecincuenta h5{
+        font-size: 15px;
+        margin: 10px 0px;
+        font-weight: 700;
+    }
+    .section1 .cesdecincuenta p{
+        font-size: 16px;
+    }
+    .section1 .img{
+        width: 300px;
+    }
+    .section1 .img img{
+        width: 280px;
+        margin-bottom: -5px;
+    }
+    
+    
+    .section2{
+        width: 100%;
+        height: 500px;
+        background-color: #EFEFEF;
+        color: #535353;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        overflow: hidden;
+    }
+
+    .container-sect2{
+        width: 100%;
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .container-sect2 .space{
+        display: none;
+    }
+    .historia{
+        width: 610px;
+    }
+    .section2 .container-sect2 .historia P br {
+        display: none;
+    }
+    .section2 .container-sect2 .historia P {
+        width: 100%;
+        font-size: 14px;
+    }
+    .scroll {
+        overflow-x: auto;
+        scroll-behavior: smooth; /* Agrega un desplazamiento suave */
+        white-space: nowrap; /* Evita que los elementos se envuelvan */
+    }
+    .section2 .targets{
+        width: 130%;
+        height: auto;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        align-items: baseline;
+
+    }
+    
+    .section2 .targets h2{
+        text-align: center;
+        font-size: 22px;
+        color: #E71D73;
+        font-weight: bolder;
+        margin-top: 40px;
+    }
+    .section2 .targets .target{
+        width: 240px;
+        height: 170px;
+        background-color: white;
+        overflow: hidden;
+        margin: 0px 20px;
+    }
+    
+    
+    .section2 .targets .target hr{
+        border: 2px solid #E71D73;
+    }
+    
+    .section2 .targets .target img{
+        width: 100%;
+    }
+    
+    .section2 .targets .target p{
+        text-align: center;
+        margin-top: 5px;
+        font-size: 15px;
+        color: #535353;
+    }
+    
+    .section2 .targets .targetlarge{
+        width: 240px;
+        height: 190px;
+        background-color: white;
+        overflow: hidden;
+        margin: 0px 20px;
+    }
+    
+    
+    .section2 .targets .targetlarge hr{
+        border: 2px solid #E71D73;
+    }
+    
+    .section2 .targets .targetlarge img{
+        width: 100%;
+    }
+    
+    .section2 .targets .targetlarge p{
+        text-align: center;
+        margin-top: 5px;
+        font-size: 15px;
+        color: #535353;
+    }
+    
+    .container-sect2 .space{
+        display: none;
+    }
+    .container-sect2 .historia P{
+        font-size: 14px;
+    }
+    
+    .section3{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section3 .general3{
+        width: 900px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin-top: 50px;
+    }
+    .section3 .general3 .tittle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section3 .general3 .tittle h2{
+        width: 90%;
+    }
+    
+    .section3 .general3 .tittle p{
+        width: 90%;
+        font-size: 15px;
+    }
+    .section3 .general3 .tags-etapas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    
+    
+    .section3 .general3 .tags-etapas .img img{
+        width: 400px;
+        height: 400px;
+        margin-top: 40px;
+        margin-bottom: -8px;
+    }
+    
+    .section3 .general3 .tags-etapas .electiva ,
+    .section3 .general3 .tags-etapas .eproductiva{
+        border: 2px solid #E71D73;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .section3 .general3 .tags-etapas .electiva{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section3 .general3 .tags-etapas .electiva .etapa{
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 260px;
+        border-radius: 10px;
+        font-size: 14px;
+        height: 40px;
+        background-color: #E71D73;
+        border: 2px solid #E71D73;
+        transition: background-color 0.3s ease; /* Agregamos transición */
+    }
+    
+    .section3 .general3 .tags-etapas .electiva .etapa:hover{
+        background-color: white;
+        color: #E71D73;
+        border: 2px solid #E71D73;
+    }
+    
+    .section3 .general3 .tags-etapas .electiva .duracion{
+        margin: 50px 0px;
+        font-size: 18px;
+        color: #535353;
+    }
+    
+    
+    .section3 .general3 .tags-etapas .electiva .sostenimiento{
+        border: 3px solid #E71D73;
+        color: #535353;
+        width: 270px;
+        height: 60px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .section3 .general3 .tags-etapas .electiva .sostenimiento h3 strong{
+        color: #EFC75B;
+    }
+    
+    
+    
+    .section3 .general3 .tags-etapas .eproductiva{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section3 .general3 .tags-etapas .eproductiva .etapa{
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 260px;
+        border-radius: 10px;
+        font-size: 14px;
+        height: 40px;
+        background-color: #E71D73;
+        border: 2px solid #E71D73;
+        transition: background-color 0.3s ease; /* Agregamos transición */
+    }
+    
+    .section3 .general3 .tags-etapas .eproductiva .etapa:hover{
+        background-color: white;
+        color: #E71D73;
+        border: 2px solid #E71D73;
+    }
+    
+    .section3 .general3 .tags-etapas .eproductiva .duracion{
+        margin: 43px 0px;
+        font-size: 17px;
+        color: #535353;
+    }
+    
+    
+    .section3 .general3 .tags-etapas .eproductiva .sostenimiento{
+        border: 3px solid #E71D73;
+        color: #535353;
+        width: 270px;
+        height: 60px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .section3 .general3 .tags-etapas .eproductiva .sostenimiento h3{
+        font-size: 15.5px;
+    }
+    .section3 .general3 .tags-etapas .eproductiva .sostenimiento h3 strong{
+        color: #EFC75B;
+    }
+    .section3 .general3 .descrip p br{
+        display: none;
+    }
+    .section3 .general3 .container-descrip{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+    }
+    .section3 .general3 .descrip{
+        width: 400px;
+        height: 120px;
+        background-color: #E71D73;
+        color: white;
+        font-size: 16px;
+    }
+    
+    .section4{
+        width: 100%;
+        height: 500px;
+        display: none;
+    }
+    .section4 img{
+        width: 1600px;
+        border-radius: 20px;
+        margin-bottom: 100px;
+    }
+    
+    footer{
+        height: 950px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    footer .logredsociales{
+        width: 350px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 11px;
+    }
+    
+    footer .logredsociales img{
+        width: 180px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    footer .logredsociales .p{
+        margin-top: 15px;
+        width: 250px;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    footer .redes{
+        width: 80%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    footer .redes i svg{
+        margin: 0px 5px;
+        width: 25px;
+        height: 25px;
+    }
+    
+    footer .redes i svg:hover{
+        color: #fd3089;
+    }
+    footer .sedes {
+        width: 240px;
+    }
+    footer .sedes h2{
+        font-size: 20px;
+    }
+    
+    footer .sedes hr,
+    footer .lineasAtencion hr {
+        border: none; /* Quita el borde predeterminado */
+        border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+        margin: 2px 0px 10px 0px;
+    }
+    
+    footer .sedes ul{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    footer .lineasAtencion{
+        margin-bottom: 35px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    footer .lineasAtencion h2{
+        font-size: 20px;
+    }
+    
+    footer .lineasAtencion ul{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    
+    footer .politicas{
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer .politicas ul{
+        list-style-type: none;
+        margin-top: 10px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    footer .politicas a{
+        color: white;
+        text-decoration: none;
+    }
+}
+@media screen and (min-width: 902px) and (max-width: 1044px) {
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.section1 .cesdecincuenta{
+    width: 700px;
+}
+.cesdecincuenta{
+    color: #535353;
+    margin-top: 50px;
+}
+.section1 .cesdecincuenta h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.section1 .cesdecincuenta h5{
+    font-size: 15px;
+    margin: 10px 0px;
+    font-weight: 700;
+}
+.section1 .cesdecincuenta p{
+    font-size: 15px;
+}
+.section1 .img{
+    width: 300px;
+}
+.section1 .img img{
+    width: 280px;
+    margin-bottom: -5px;
+}
+
+
+.section2{
+    width: 100%;
+    height: 520px;
+    background-color: #EFEFEF;
+    color: #535353;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    overflow: hidden;
+}
+.container-sect2{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding-left: 30px;
+}
+
+.container-sect2 .space{
+    display: none;
+}
+.historia{
+    width: 900px;
+}
+.historia h2{
+    font-size: 13px;
+}
+.historia p {
+    font-size: 20px; /* Cambia el tamaño de fuente a un valor más razonable */
+}
+
+.scroll {
+    overflow-x: auto;
+    scroll-behavior: smooth; /* Agrega un desplazamiento suave */
+    white-space: nowrap; /* Evita que los elementos se envuelvan */
+}
+.section2 .targets{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.section2 .targets h2{
+    text-align: center;
+    font-size: 22px;
+    color: #E71D73;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+.section2 .targets .target{
+    width: 240px;
+    height: 170px;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.section2 .targets .target hr{
+    border: 2px solid #E71D73;
+}
+
+.section2 .targets .target img{
+    width: 100%;
+}
+
+.section2 .targets .target p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #535353;
+}
+
+.section2 .targets .targetlarge{
+    width: 240px;
+    height: 190px;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.section2 .targets .targetlarge hr{
+    border: 2px solid #E71D73;
+}
+
+.section2 .targets .targetlarge img{
+    width: 100%;
+}
+
+.section2 .targets .targetlarge p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #535353;
+}
+
+.container-sect2 .space{
+    display: none;
+}
+.container-sect2 .historia P{
+    font-size: 14px;
+}
+
+.section3{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 .general3{
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.section3 .general3 .tittle p{
+    width: 100%;
+    font-size: 15px;
+}
+
+
+
+.section3 .general3 .tags-etapas{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.section3 .general3 .tags-etapas .img img{
+    width: 300px;
+    height: 300px;
+}
+
+.section3 .general3 .tags-etapas .electiva ,
+.section3 .general3 .tags-etapas .eproductiva{
+    border: 2px solid #E71D73;
+    width: 300px;
+    height: 300px;
+}
+
+.section3 .general3 .tags-etapas .electiva{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 .general3 .tags-etapas .electiva .etapa{
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 13px;
+    height: 40px;
+    background-color: #E71D73;
+    border: 2px solid #E71D73;
+    transition: background-color 0.3s ease; /* Agregamos transición */
+}
+
+.section3 .general3 .tags-etapas .electiva .etapa:hover{
+    background-color: white;
+    color: #E71D73;
+    border: 2px solid #E71D73;
+}
+
+.section3 .general3 .tags-etapas .electiva .duracion{
+    margin: 50px 0px;
+    font-size: 18px;
+    color: #535353;
+}
+
+
+.section3 .general3 .tags-etapas .electiva .sostenimiento{
+    border: 3px solid #E71D73;
+    color: #535353;
+    width: 270px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.section3 .general3 .tags-etapas .electiva .sostenimiento h3 strong{
+    color: #EFC75B;
+}
+
+
+
+.section3 .general3 .tags-etapas .eproductiva{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 .general3 .tags-etapas .eproductiva .etapa{
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 13px;
+    height: 40px;
+    background-color: #E71D73;
+    border: 2px solid #E71D73;
+    transition: background-color 0.3s ease; /* Agregamos transición */
+}
+
+.section3 .general3 .tags-etapas .eproductiva .etapa:hover{
+    background-color: white;
+    color: #E71D73;
+    border: 2px solid #E71D73;
+}
+
+.section3 .general3 .tags-etapas .eproductiva .duracion{
+    margin: 43px 0px;
+    font-size: 16px;
+    color: #535353;
+}
+
+
+.section3 .general3 .tags-etapas .eproductiva .sostenimiento{
+    border: 3px solid #E71D73;
+    color: #535353;
+    width: 270px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.section3 .general3 .tags-etapas .eproductiva .sostenimiento h3{
+    font-size: 15.5px;
+}
+.section3 .general3 .tags-etapas .eproductiva .sostenimiento h3 strong{
+    color: #EFC75B;
+}
+.section3 .general3 .descrip{
+    width: 100%;
+    height: 100px;
+    margin-top: -7px;
+    background-color: #E71D73;
+    color: white;
+    font-size: 16px;
+}
+
+.section4{
+    width: 100%;
+    height: 500px;
+}
+.section4 img{
+    width: 1600px;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+footer{
+    height: 450px;
+}
+
+footer .logredsociales{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+}
+
+footer .logredsociales img{
+    width: 140px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+footer .logredsociales .p{
+    margin-top: 15px;
+    width: 200px;
+    font-size: 11px;
+}
+
+footer .redes{
+    margin-top: 20px;
+}
+
+footer .redes i svg{
+    margin: 0px 5px;
+    width: 20px;
+    height: 20px;
+}
+
+footer .redes i svg:hover{
+    color: #fd3089;
+}
+
+footer .sedes h2{
+    font-size: 20px;
+}
+
+footer .sedes hr,
+footer .lineasAtencion hr {
+    border: none; /* Quita el borde predeterminado */
+    border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+    margin: 2px 0px 10px 0px;
+}
+
+footer .sedes ul{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+footer .lineasAtencion{
+    margin-bottom: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .lineasAtencion h2{
+    font-size: 20px;
+}
+
+footer .lineasAtencion ul{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+footer .politicas{
+    font-size: 13px;
+}
+
+footer .politicas ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+footer .politicas a{
+    color: white;
+    text-decoration: none;
+}
+
+    /* Agrega aquí los estilos específicos para dispositivos móviles medianos si es necesario */
+}
+@media screen and (min-width: 1045px) and (max-width: 1264px) {
+    /* Estilos CSS para tablets en posición horizontal y pantallas pequeñas de escritorio */
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.section1 .cesdecincuenta{
+    width: 700px;
+}
+
+.cesdecincuenta{
+    color: #535353;
+}
+
+.section1 .cesdecincuenta h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section1 .cesdecincuenta h5{
+    font-size: 15px;
+    margin: 10px 0px;
+    font-weight: 700;
+}
+
+.section1 .cesdecincuenta p{
+    font-size: 13px;
+}
+
+.section1 .img{
+    width: 300px;
+}
+.section1 .img img{
+    width: 320px;
+}
+
+
+.section2{
+    width: 100%;
+    height: 520px;
+    background-color: #EFEFEF;
+    color: #535353;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.container-sect2{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.container-sect2 .space{
+    display: none;
+}
+
+.section3 .general3 .tags-etapas .electiva,
+.section3 .general3 .tags-etapas .eproductiva{
+    height: 325px;
+}
+
+
+.section3{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section3 .general3{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.section4 img{
+    width: 1600px;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+footer{
+    width: 100%;
+    height: 450px;
+}
+
+footer .logredsociales{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+}
+
+footer .logredsociales img{
+    width: 140px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+footer .logredsociales .p{
+    margin-top: 15px;
+    width: 200px;
+    font-size: 11px;
+}
+
+footer .redes{
+    margin-top: 20px;
+}
+
+footer .redes i svg{
+    margin: 0px 5px;
+    width: 20px;
+    height: 20px;
+}
+
+footer .redes i svg:hover{
+    color: #fd3089;
+}
+footer .sedes{
+    margin: 0px 30px 0px 0px;
+}
+footer .sedes h2{
+    font-size: 20px;
+}
+
+footer .sedes hr,
+footer .lineasAtencion hr {
+    border: none; /* Quita el borde predeterminado */
+    border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+    margin: 2px 0px 10px 0px;
+}
+
+footer .sedes ul{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+footer .lineasAtencion{
+    margin-bottom: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .lineasAtencion h2{
+    font-size: 20px;
+}
+
+footer .lineasAtencion ul{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+footer .politicas{
+    font-size: 13px;
+}
+
+footer .politicas ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+footer .politicas a{
+    color: white;
+    text-decoration: none;
+}
+
+}
+@media screen and (min-width: 1265px) and (max-width: 1375px) {
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.section1 .cesdecincuenta{
+    width: 700px;
+}
+
+.cesdecincuenta{
+    color: #535353;
+}
+
+.section1 .cesdecincuenta h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section1 .cesdecincuenta h5{
+    font-size: 15px;
+    margin: 10px 0px;
+    font-weight: 700;
+}
+
+.section1 .cesdecincuenta p{
+    font-size: 13px;
+}
+
+.section1 .img{
+    width: 300px;
+}
+.section1 .img img{
+    width: 320px;
+}
+
+
+.section2{
+    width: 100%;
+    height: 520px;
+    background-color: #EFEFEF;
+    color: #535353;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.container-sect2{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.container-sect2 .space{
+    display: none;
+}
+
+
+.section3{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section3 .general3{
+    width: 1000px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.section3 .general3 .tags-etapas .electiva,
+.section3 .general3 .tags-etapas .eproductiva{
+    height: 325px;
+}
+
+footer{
+    height: 400px;
+}
+footer .logredsociales{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+}
+
+footer .logredsociales img{
+    width: 160px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+footer .logredsociales .p{
+    margin-top: 16px;
+    width: 200px;
+    font-size: 11px;
+}
+
+footer .redes{
+    margin-top: 25px;
+}
+
+footer .redes i svg{
+    margin: 0px 8px;
+    width: 20px;
+    height: 20px;
+}
+
+footer .redes i svg:hover{
+    color: #fd3089;
+}
+footer .sedes h2{
+    font-size: 20px;
+}
+
+footer .sedes hr,
+footer .lineasAtencion hr {
+    border: none; /* Quita el borde predeterminado */
+    border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+    margin: 2px 0px 10px 0px;
+}
+
+footer .sedes ul{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+footer .lineasAtencion{
+    margin-bottom: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+
+footer .lineasAtencion h2{
+    font-size: 20px;
+}
+
+footer .lineasAtencion ul{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+footer .politicas{
+    font-size: 13px;
+}
+
+footer .politicas ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+
+}
+@media screen and (min-width: 1282px) {
+    .section3 .general3 .tags-etapas .electiva,
+.section3 .general3 .tags-etapas .eproductiva{
+    height: 325px;
+}
+
+}

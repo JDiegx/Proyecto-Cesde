@@ -1,0 +1,1800 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 90px;
+}
+
+header .logo a img{
+    width: 260px;
+    margin-left: 50px;
+}
+
+main{
+    width: 100%;
+}
+
+main .pag {
+    background-image: url(../img/background.png);
+    width: 100%;
+    height: auto;
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la ventana */
+    background-position: center;
+}
+
+main .pag .login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+main .pag .login .container-login{
+    width: 1700px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    flex-wrap: wrap;
+
+}
+
+main .pag .login .container-login .login-dates{
+    width: 445px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+main .pag .login .container-login .login-dates h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    color: #E71D73;
+
+}
+
+main .pag .login .container-login .login-dates p{
+    font-size: 13px;
+    text-align: center;
+    color: #242422;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+main .pag .login .container-login .login-dates .inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+main .pag .login .container-login .login-dates .inputs input{
+    width: 350px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #535353;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+main .pag .login .container-login .login-dates a button{
+    background-color: #E71D73;
+    color: white;
+    width: 110px;
+    height: 37px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+}
+
+main .pag .login .container-login .login-dates a button:hover{
+    background-color: #e71d75b4;
+}
+
+main .pag .login .container-login .login-dates .remember-forgot{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .pag .login .container-login .login-dates .remember-forgot label{
+    font-size: 13px;
+}
+
+
+main .pag .login .container-login .login-dates .remember-forgot a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #424242;
+}
+
+main .pag .login .container-login .login-img{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .pag .login .container-login .login-img img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+main  .section2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+main .section2 .cesde-edu-e{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+
+main .section2 .trasnfor-educacion{
+    margin-bottom: 60px;
+}
+
+main .section2 .trasnfor-educacion h2{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+main .section2 .trasnfor-educacion  p{
+    color: #424242;
+}
+
+main .section2 .cesde-edu-e .img{
+    margin-right: 40px;
+}
+
+main .section2 .cesde-edu-e .img img {
+    border-radius: 25px;
+}
+
+main .section3{
+    width: 100%;
+    height: 800px;
+    background-color: #242422;
+    color: white;
+    text-align: center;
+}
+
+main .section3 .ayuda{
+    padding: 50px 0px 40px 0px;
+}
+main .section3 .ayuda h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+main .section3 .targetsay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .section3 .targetsay .targetayuda{
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    color: #242422;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+main .section3 .targetsay .targetayuda .tittle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+main .section3 .targetsay .targetayuda .tittle img{
+    margin: 10px 10px 0px 20px;
+}
+
+main .section3 .targetsay .targetayuda .tittle h3{
+    font-size: 15px;
+    color: #242422;
+    margin-top: 5px;
+}
+
+main .section3 .targetsay .targetayuda p{
+    text-align: left;
+    margin: 0px 0px 0px 30px;
+    color: #424242;
+    font-size: 14px;
+}
+main .section3 .targetsay .targetayuda a{
+    text-align: left;
+}
+main .section3 .targetsay .targetayuda a img{
+    text-align: left;
+    margin: 23px 0px 0px 30px;
+}
+
+main .section4{
+    width: 100%;
+    height: 400px;
+
+}
+main .section4 h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+main .section4 .instructivo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+main .section4 .instructivo .docs{
+    display: flex;
+    flex-direction: row;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+main .section4 .instructivo .docs img{
+    margin-right: 10px;
+}
+
+
+main .section4 .instructivo .docs a{
+    text-decoration: none;
+    color: #242422;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #424242;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer .logredsociales{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+}
+
+footer .logredsociales img{
+    width: 160px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+footer .logredsociales .p{
+    margin-top: 16px;
+    width: 200px;
+    font-size: 11px;
+}
+
+footer .redes{
+    margin-top: 25px;
+}
+
+footer .redes i svg{
+    margin: 0px 8px;
+    width: 20px;
+    height: 20px;
+}
+
+footer .redes i svg:hover{
+    color: #fd3089;
+}
+
+footer .sedes h2{
+    font-size: 20px;
+}
+
+footer .sedes hr,
+footer .lineasAtencion hr {
+    border: none;
+    border-top: 2px solid #E71D73; 
+    margin: 2px 0px 10px 0px;
+}
+
+footer .sedes ul{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+footer .lineasAtencion{
+    margin-bottom: 41px;
+}
+
+footer .lineasAtencion h2{
+    font-size: 20px;
+}
+
+footer .lineasAtencion ul{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+footer .politicas{
+    font-size: 15px;
+}
+
+footer .politicas ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+footer .politicas a{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and  (max-width: 354px){
+    header{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        background-color: #EFEFEF;
+        width: 100%;
+        height: 90px;
+        }
+        header .logo a img{
+        width: 260px;
+        margin-left: 0px;
+        }
+        main .pag{
+            height: auto;
+            background-image: url(../img/backgroundmobile.png);
+            background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la ventana */
+            background-position: center;
+        }
+        main .pag .login{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: auto;
+        }
+        
+        main .pag .login .container-login{
+            width: 1700px;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            overflow: hidden;
+            flex-wrap: wrap;
+        }
+    
+        main .pag .login .container-login p br{
+            display: none;
+        }
+        
+    main .pag .login .container-login .login-dates{
+        width: 320px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    
+    main .pag .login .container-login .login-dates h2{
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        color: #E71D73;
+    
+    }
+    
+    main .pag .login .container-login .login-dates p{
+        width: 300px;
+        font-size: 13px;
+        text-align: center;
+        color: #242422;
+        font-weight: 600;
+        margin-top: 5px;
+    }
+    
+    main .pag .login .container-login .login-dates .remember-forgot{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    main .pag .login .container-login .login-dates .remember-forgot label{
+    font-size: 12px;
+    }
+    main .pag .login .container-login .login-dates .remember-forgot a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #424242;
+    }
+    main .pag .login .container-login .login-dates .inputs{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    main .pag .login .container-login .login-dates .inputs input{
+        width: 260px;
+        height: 20px;
+        padding: 10px;
+        border: 1px solid #535353;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+        main .pag .login .container-login .login-img{
+        display: none;
+        }
+    
+        main .pag .login .container-login .login-img img{
+        width: 100%;
+        border-radius: 20px;
+        }
+    
+        main .section2 .trasnfor-educacion {
+            width: 300px;
+            height: auto;
+        }
+        main .section2 .trasnfor-educacion h2{
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+        main .section2 .trasnfor-educacion p{
+            color: #424242;
+            font-size: 14px;
+        }
+
+        main .section2 .cesde-edu-e {
+            padding-bottom: 50px;
+        }
+        main .section2 .cesde-edu-e .img{
+            margin-right: 0px;
+        }
+        
+        main .section2 .cesde-edu-e .img img {
+            width: 300px;
+            border-radius: 20px;
+        }    
+        main .section3{
+            width: 100%;
+            height: auto;
+            background-color: #242422;
+            color: white;
+            text-align: center;
+            padding-bottom: 70px;
+        }
+        
+        main .section3 .ayuda{
+            padding: 50px 0px 40px 0px;
+        }
+        main .section3 .ayuda h1{
+            font-size: 50px;
+            font-weight: 900;
+        }
+        main .section3 .ayuda h2{
+            font-size: 20px;
+        }
+        
+        main .section3 .targetsay{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        main .section3 .targetsay .targetayuda{
+            width: 450px;
+            height: 200px;
+            background-color: white;
+            color: #242422;
+            margin: 20px 20px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        main .section3 .targetsay .targetayuda br{
+            display: none;
+        }
+        main .section3 .targetsay .targetayuda .tittle{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        main .section3 .targetsay .targetayuda .tittle img{
+            margin: 10px 10px 0px 20px;
+        }
+        
+        main .section3 .targetsay .targetayuda .tittle h3{
+            font-size: 15px;
+            color: #242422;
+            margin-top: 5px;
+        }
+        
+        main .section3 .targetsay .targetayuda p{
+            width: 220px;
+            text-align: left;
+            margin: 0px 0px 0px 30px;
+            color: #424242;
+            font-size: 13px;
+        }
+        main .section3 .targetsay .targetayuda a{
+            text-align: left;
+        }
+        main .section3 .targetsay .targetayuda a img{
+            text-align: left;
+            margin: 23px 0px 0px 30px;
+        }
+        
+        main .section4{
+        width: 100%;
+        height: auto;
+        padding-bottom: 70px;
+        }
+        main .section4 h1{
+        text-align: center;
+        padding-top: 50px;
+        }
+        main .section4 .instructivo{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        }
+        .cont-docs{
+        margin: 0px 10px;
+        }
+        main .section4 .instructivo #cont-docs-two{
+            width: 355px;
+        }
+        main .section4 .instructivo .docs{
+        display: flex;
+        flex-direction: row;
+        margin-right: 0px;
+        }
+        main .section4 .instructivo .docs img{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        }
+        main .section4 .instructivo .docs a{
+        font-size: 15px;
+        text-decoration: none;
+        color: #242422;
+        }
+        footer{
+            height: 950px;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+        
+        footer .logredsociales{
+            width: 350px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            font-size: 11px;
+        }
+        
+        footer .logredsociales img{
+            width: 180px;
+            margin-top: 0px;
+            margin-right: 0px;
+        }
+        
+        footer .logredsociales .p{
+            margin-top: 15px;
+            width: 250px;
+            font-size: 13px;
+            text-align: center;
+        }
+        
+        footer .redes{
+            width: 80%;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        
+        footer .redes i svg{
+            margin: 0px 5px;
+            width: 25px;
+            height: 25px;
+        }
+        
+        footer .redes i svg:hover{
+            color: #fd3089;
+        }
+        
+        footer .sedes {
+            width: 240px;
+        }
+        
+        footer .sedes h2{
+            font-size: 20px;
+        }
+        
+        footer .sedes hr,
+        footer .lineasAtencion hr {
+            border: none; /* Quita el borde predeterminado */
+            border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+            margin: 2px 0px 10px 0px;
+        }
+        
+        footer .sedes ul{
+            font-size: 13px;
+            font-weight: 300;
+        }
+        
+        footer .lineasAtencion{
+            margin-bottom: 35px;
+            color: white;
+            text-decoration: none;
+        }
+        
+        
+        footer .lineasAtencion h2{
+            font-size: 20px;
+        }
+        
+        footer .lineasAtencion ul{
+            font-size: 13px;
+            font-weight: 300;
+        }
+        footer .politicas{
+            font-size: 13px;
+        }
+        footer .politicas {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        footer .politicas ul{
+            list-style-type: none;
+            margin-top: 24px;
+            text-align: center;
+        }
+        
+        footer .politicas a{
+            color: white;
+            text-decoration: none;
+        }
+}
+@media screen and (min-width: 355px) and (max-width: 600px){ 
+    header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 90px;
+    }
+    header .logo a img{
+    width: 260px;
+    margin-left: 0px;
+    }
+    main .pag{
+        height: auto;
+        background-image: url(../img/backgroundmobile.png);
+        background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la ventana */
+        background-position: center;
+    }
+    main .pag .login{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    main .pag .login .container-login{
+        width: 1700px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+
+    main .pag .login .container-login p br{
+        display: none;
+    }
+    
+main .pag .login .container-login .login-dates{
+
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+main .pag .login .container-login .login-dates h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    color: #E71D73;
+
+}
+
+main .pag .login .container-login .login-dates p{
+    width: 350px;
+    font-size: 13px;
+    text-align: center;
+    color: #242422;
+    font-weight: 600;
+    margin-top: 5px;
+}
+main .pag .login .container-login .login-dates .inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+main .pag .login .container-login .login-dates .inputs input{
+    width: 280px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #535353;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+    main .pag .login .container-login .login-img{
+    display: none;
+    }
+
+    main .pag .login .container-login .login-img img{
+    width: 100%;
+    border-radius: 20px;
+    }
+
+    main .section2 .trasnfor-educacion {
+        width: 350px;
+        height: auto;
+    }
+    main .section2 .trasnfor-educacion h2{
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    main .section2 .trasnfor-educacion p{
+        color: #424242;
+        font-size: 14px;
+    }
+
+    main .section2 .cesde-edu-e {
+        padding-bottom: 50px;
+    }
+    main .section2 .cesde-edu-e .img{
+        margin-right: 0px;
+    }
+    
+    main .section2 .cesde-edu-e .img img {
+        width: 350px;
+        border-radius: 20px;
+    }    
+    main .section3{
+        width: 100%;
+        height: auto;
+        background-color: #242422;
+        color: white;
+        text-align: center;
+        padding-bottom: 70px;
+    }
+    
+    main .section3 .ayuda{
+        padding: 50px 0px 40px 0px;
+    }
+    main .section3 .ayuda h1{
+        font-size: 55px;
+        font-weight: 900;
+    }
+    
+    main .section3 .targetsay{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    main .section3 .targetsay .targetayuda{
+        width: 450px;
+        height: 200px;
+        background-color: white;
+        color: #242422;
+        margin: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    main .section3 .targetsay .targetayuda br{
+        display: none;
+    }
+    main .section3 .targetsay .targetayuda .tittle{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    main .section3 .targetsay .targetayuda .tittle img{
+        margin: 10px 10px 0px 20px;
+    }
+    
+    main .section3 .targetsay .targetayuda .tittle h3{
+        font-size: 15px;
+        color: #242422;
+        margin-top: 5px;
+    }
+    
+    main .section3 .targetsay .targetayuda p{
+        text-align: left;
+        margin: 0px 0px 0px 30px;
+        color: #424242;
+        font-size: 13px;
+    }
+    main .section3 .targetsay .targetayuda a{
+        text-align: left;
+    }
+    main .section3 .targetsay .targetayuda a img{
+        text-align: left;
+        margin: 23px 0px 0px 30px;
+    }
+    
+    main .section4{
+    width: 100%;
+    height: auto;
+    padding-bottom: 70px;
+    }
+    main .section4 h1{
+    text-align: center;
+    padding-top: 50px;
+    }
+    main .section4 .instructivo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    .cont-docs{
+    margin: 0px 10px;
+    }
+    main .section4 .instructivo #cont-docs-two{
+        width: 355px;
+    }
+    main .section4 .instructivo .docs{
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+    }
+    main .section4 .instructivo .docs img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    }
+    main .section4 .instructivo .docs a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #242422;
+    }
+        footer{
+            height: 950px;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+        
+        footer .logredsociales{
+            width: 350px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            font-size: 11px;
+        }
+        
+        footer .logredsociales img{
+            width: 180px;
+            margin-top: 0px;
+            margin-right: 0px;
+        }
+        
+        footer .logredsociales .p{
+            margin-top: 15px;
+            width: 250px;
+            font-size: 13px;
+            text-align: center;
+        }
+        
+        footer .redes{
+            width: 80%;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        
+        footer .redes i svg{
+            margin: 0px 5px;
+            width: 25px;
+            height: 25px;
+        }
+        
+        footer .redes i svg:hover{
+            color: #fd3089;
+        }
+        footer .sedes {
+            width: 240px;
+        }
+        
+        footer .sedes h2{
+            font-size: 20px;
+        }
+        
+        footer .sedes hr,
+        footer .lineasAtencion hr {
+            border: none; /* Quita el borde predeterminado */
+            border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+            margin: 2px 0px 10px 0px;
+        }
+        
+        footer .sedes ul{
+            font-size: 13px;
+            font-weight: 300;
+        }
+        
+        footer .lineasAtencion{
+            margin-bottom: 35px;
+            color: white;
+            text-decoration: none;
+        }
+        
+        footer .lineasAtencion h2{
+            font-size: 20px;
+        }
+        
+        footer .lineasAtencion ul{
+            font-size: 13px;
+            font-weight: 300;
+        }
+
+        footer .politicas{
+            font-size: 14px;
+
+        }
+        footer .politicas {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        footer .politicas ul{
+            list-style-type: none;
+            margin-top: 25px;
+            text-align: center;
+        }
+        
+        footer .politicas a{
+            color: white;
+            text-decoration: none;
+        }
+}
+@media screen and (min-width: 601px) and (max-width: 900px){
+    main .pag{
+        height: auto;
+        background-image: url(../img/backgroundmobile.png);
+        background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la ventana */
+        background-position: center;
+    }
+    main .pag .login{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    main .pag .login .container-login{
+        width: 1700px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+    
+    main .pag .login .container-login .login-img{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    main .pag .login .container-login .login-img img{
+    width: 100%;
+    border-radius: 20px;
+    }
+
+    main .section2 .trasnfor-educacion h2{
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    main .section2 .trasnfor-educacion  p{
+        color: #424242;
+        font-size: 14px;
+    }
+    
+    main .section2 .cesde-edu-e {
+        padding-bottom: 50px;
+    }
+    main .section2 .cesde-edu-e .img{
+        margin-right: 0px;
+    }
+    
+    main .section2 .cesde-edu-e .img img {
+        width: 480px;
+        border-radius: 25px;
+    }    
+    main .section3{
+        width: 100%;
+        height: auto;
+        background-color: #242422;
+        color: white;
+        text-align: center;
+        padding-bottom: 70px;
+    }
+    
+    main .section3 .ayuda{
+        padding: 50px 0px 40px 0px;
+    }
+    main .section3 .ayuda h1{
+        font-size: 66px;
+        font-weight: 900;
+    }
+    
+    main .section3 .targetsay{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    main .section3 .targetsay .targetayuda{
+        width: 450px;
+        height: 200px;
+        background-color: white;
+        color: #242422;
+        margin: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    main .section3 .targetsay .targetayuda .tittle{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    main .section3 .targetsay .targetayuda .tittle img{
+        margin: 10px 10px 0px 20px;
+    }
+    
+    main .section3 .targetsay .targetayuda .tittle h3{
+        font-size: 15px;
+        color: #242422;
+        margin-top: 5px;
+    }
+    
+    main .section3 .targetsay .targetayuda p{
+        text-align: left;
+        margin: 0px 0px 0px 30px;
+        color: #424242;
+        font-size: 14px;
+    }
+    main .section3 .targetsay .targetayuda a{
+        text-align: left;
+    }
+    main .section3 .targetsay .targetayuda a img{
+        text-align: left;
+        margin: 23px 0px 0px 30px;
+    }
+    
+    main .section4{
+    width: 100%;
+    height: auto;
+    padding-bottom: 70px;
+    }
+    main .section4 h1{
+    text-align: center;
+    padding-top: 50px;
+    }
+    main .section4 .instructivo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    .cont-docs{
+    margin: 0px 10px;
+    }
+    main .section4 .instructivo #cont-docs-two{
+        width: 362px;
+    }
+    main .section4 .instructivo .docs{
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+    }
+    main .section4 .instructivo .docs img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    }
+    main .section4 .instructivo .docs a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #242422;
+    }
+    footer{
+        height: 950px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    footer .logredsociales{
+        width: 350px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 11px;
+    }
+    
+    footer .logredsociales img{
+        width: 180px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    footer .logredsociales .p{
+        margin-top: 15px;
+        width: 250px;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    footer .redes{
+        width: 80%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    footer .redes i svg{
+        margin: 0px 5px;
+        width: 25px;
+        height: 25px;
+    }
+    
+    footer .redes i svg:hover{
+        color: #fd3089;
+    }
+    footer .sedes {
+        width: 240px;
+    }
+    footer .sedes h2{
+        font-size: 20px;
+    }
+    
+    footer .sedes hr,
+    footer .lineasAtencion hr {
+        border: none; /* Quita el borde predeterminado */
+        border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+        margin: 2px 0px 10px 0px;
+    }
+    
+    footer .sedes ul{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    footer .lineasAtencion{
+        margin-bottom: 35px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    footer .lineasAtencion h2{
+        font-size: 20px;
+    }
+    
+    footer .lineasAtencion ul{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    
+    footer .politicas{
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer .politicas ul{
+        list-style-type: none;
+        margin-top: 10px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    footer .politicas a{
+        color: white;
+        text-decoration: none;
+    }
+}
+@media screen and (min-width: 902px) and (max-width: 1044px) {
+    .pag{
+        height: auto;
+    }
+    main .pag .login{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    main .pag .login .container-login{
+        width: 1700px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        flex-wrap: nowrap;
+    }
+    main .pag .login .container-login .login-img{
+    width: 520px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    main .pag .login .container-login .login-img img{
+    width: 100%;
+    border-radius: 20px;
+    }
+    main .pag .login .container-login .login-dates{
+    width: 420px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0px 10px 0px 20px;
+    }
+    main .pag .login .container-login .login-dates p br{
+        display: none;
+    }
+    main .pag .login .container-login .login-dates p{
+        font-size: 13px;
+    }
+    main .section2 .cesde-edu-e{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    overflow: hidden;
+    }
+    
+main .pag .login .container-login .login-dates .inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+main .pag .login .container-login .login-dates .inputs input{
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #535353;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+main .section2 .trasnfor-educacion{
+    width: 480px;
+    margin-bottom: 60px;
+}
+
+main .section2 .trasnfor-educacion h2{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+main .section2 .trasnfor-educacion  p{
+    color: #424242;
+    font-size: 12px;
+}
+
+main .section2 .cesde-edu-e .img{
+    margin-right: 0px;
+}
+
+main .section2 .cesde-edu-e .img img {
+    width: 380px;
+    border-radius: 25px;
+}
+
+
+
+main .section4{
+    width: 100%;
+    height: 400px;
+}
+main .section4 h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+main .section4 .instructivo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+main .section4 .instructivo .docs{
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+    margin-top: 30px;
+}
+
+main .section4 .instructivo .docs img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+
+main .section4 .instructivo .docs a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #242422;
+}
+
+
+footer{
+    height: 450px;
+}
+
+footer .logredsociales{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+}
+
+footer .logredsociales img{
+    width: 140px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+footer .logredsociales .p{
+    margin-top: 15px;
+    width: 200px;
+    font-size: 11px;
+}
+
+footer .redes{
+    margin-top: 20px;
+}
+
+footer .redes i svg{
+    margin: 0px 5px;
+    width: 20px;
+    height: 20px;
+}
+
+footer .redes i svg:hover{
+    color: #fd3089;
+}
+
+footer .sedes h2{
+    font-size: 20px;
+}
+
+footer .sedes hr,
+footer .lineasAtencion hr {
+    border: none; /* Quita el borde predeterminado */
+    border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+    margin: 2px 0px 10px 0px;
+}
+
+footer .sedes ul{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+footer .lineasAtencion{
+    margin-bottom: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .lineasAtencion h2{
+    font-size: 20px;
+}
+
+footer .lineasAtencion ul{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+footer .politicas{
+    font-size: 13px;
+}
+
+footer .politicas ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+footer .politicas a{
+    color: white;
+    text-decoration: none;
+}
+
+    /* Agrega aquí los estilos específicos para dispositivos móviles medianos si es necesario */
+}
+@media screen and (min-width: 1045px) and (max-width: 1264px) {
+    .pag{
+        height: auto;
+    }
+    main .pag .login{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    main .pag .login .container-login{
+        width: 1700px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+    main .pag .login .container-login .login-img{
+    width: 550px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    main .pag .login .container-login .login-img img{
+    width: 100%;
+    border-radius: 30px;
+    }
+    main .pag .login .container-login .login-dates{
+    width: 445px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0px 20px;
+    }
+    main .section2 .cesde-edu-e{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    overflow: hidden;
+    }
+
+
+main .section2 .trasnfor-educacion{
+    width: 550px;
+    margin-bottom: 60px;
+}
+
+main .section2 .trasnfor-educacion h2{
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+main .section2 .trasnfor-educacion  p{
+    color: #424242;
+    font-size: 14px;
+}
+
+main .section2 .cesde-edu-e .img{
+    margin-right: 0px;
+
+}
+
+main .section2 .cesde-edu-e .img img {
+    width: 420px;
+    border-radius: 25px;
+}
+
+
+footer{
+    width: 100%;
+    height: 450px;
+}
+
+footer .logredsociales{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+}
+
+footer .logredsociales img{
+    width: 140px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+footer .logredsociales .p{
+    margin-top: 15px;
+    width: 200px;
+    font-size: 11px;
+}
+
+footer .redes{
+    margin-top: 20px;
+}
+
+footer .redes i svg{
+    margin: 0px 5px;
+    width: 20px;
+    height: 20px;
+}
+
+footer .redes i svg:hover{
+    color: #fd3089;
+}
+footer .sedes{
+    margin: 0px 30px 0px 0px;
+}
+footer .sedes h2{
+    font-size: 20px;
+}
+
+footer .sedes hr,
+footer .lineasAtencion hr {
+    border: none; /* Quita el borde predeterminado */
+    border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+    margin: 2px 0px 10px 0px;
+}
+
+footer .sedes ul{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+footer .lineasAtencion{
+    margin-bottom: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .lineasAtencion h2{
+    font-size: 20px;
+}
+
+footer .lineasAtencion ul{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+footer .politicas{
+    font-size: 13px;
+}
+
+footer .politicas ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+footer .politicas a{
+    color: white;
+    text-decoration: none;
+}
+
+}
+@media screen and (min-width: 1265px) and (max-width: 1375px) {
+    main .pag .login .container-login .login-img{
+        width: 750px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    main .pag .login .container-login .login-img img{
+        width: 100%;
+        border-radius: 30px;
+    }
+    
+footer{
+    height: 400px;
+}
+footer .logredsociales{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+}
+
+footer .logredsociales img{
+    width: 160px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+footer .logredsociales .p{
+    margin-top: 16px;
+    width: 200px;
+    font-size: 11px;
+}
+
+footer .redes{
+    margin-top: 25px;
+}
+
+footer .redes i svg{
+    margin: 0px 8px;
+    width: 20px;
+    height: 20px;
+}
+
+footer .redes i svg:hover{
+    color: #fd3089;
+}
+footer .sedes h2{
+    font-size: 20px;
+}
+
+footer .sedes hr,
+footer .lineasAtencion hr {
+    border: none; /* Quita el borde predeterminado */
+    border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+    margin: 2px 0px 10px 0px;
+}
+
+footer .sedes ul{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+footer .lineasAtencion{
+    margin-bottom: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+
+footer .lineasAtencion h2{
+    font-size: 20px;
+}
+
+footer .lineasAtencion ul{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+footer .politicas{
+    font-size: 13px;
+}
+
+footer .politicas ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+
+}
+@media screen and (min-width: 1282px) {
+}
