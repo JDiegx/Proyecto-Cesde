@@ -212,6 +212,50 @@ label{
     font-weight: bolder;
 }
 
+.align{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
+}
+
+.align2{
+    display: flex;
+}
+
+.p{
+    text-align: center;
+}
+
+.text3{
+    width: 50%;
+    text-align: center;
+}
+
+.text4{
+    width: 60%;
+    text-align: center;
+}
+
+.city{
+    margin-right: 20px !important;
+}
+
+.number{
+    margin-left: 25px;
+}
+
 @media (max-width: 425px) {
     
     .title>h2{
@@ -242,5 +286,44 @@ label{
         width: 50%;
     }
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+}
+
+@media (max-width: 992px) {
+
+    .align2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p{
+        text-align: start;
+        margin-left: 12px;
+    }
+
+    .text3{
+        text-align: left;
+    }
+
+    .text4{
+        width: 50%;
+        text-align: left;
+    }
+
+    .number{
+        margin-left: 0;
+    }
+
+    .city{
+        margin-right: 0;
+        margin-left: 18px;
+    }
+
+    .special{
+        margin-left: 8px;
+    }
+    
 >>>>>>> Stashed changes
 }
