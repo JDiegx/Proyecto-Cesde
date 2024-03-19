@@ -1,160 +1,7 @@
-<<<<<<< Updated upstream
-*{
-    margin: 0%;
-    padding: 0%;
-}
-
-body{
-    font-family: 'Open Sans', sans-serif;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    background-color: #EFEFEF;
-    width: 100%;
-    height: 90px;
-}
-
-header .logo a img{
-    width: 260px;
-    margin-left: 50px;
-}
-
-header .soporteheader{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-right: 400px;
-}
-
-header .soporteheader .nayuda h2{
-    font-size: 14px;
-    margin-right: 15px;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-}
-
-header  .soporteheader .icons img{
-    width: 42px;
-}
-
-
-main{
-    width: 100%;
-    height: 600px;
-}
-
-
-
-
-
-footer{
-    width: 100%;
-    height: 400px;
-    background-color: #424242;
-    color: white;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-footer .logredsociales{
-    width: 300px;
-    height: 200px;
-    margin-left: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    font-size: 11px;
-}
-
-footer .logredsociales img{
-    width: 160px;
-    margin-top: 20px;
-}
-
-footer .logredsociales .p{
-    margin-top: 17px;
-    margin-left: 20px;
-    width: 190px;
-    font-size: 11px;
-}
-
-footer .redes{
-    margin-top: 25px;
-    margin-left: 40px;
-}
-
-footer .redes i svg{
-    margin: 0px 8px;
-    width: 20px;
-    height: 20px;
-}
-
-footer .redes i svg:hover{
-    color: #fd3089;
-}
-
-footer .sedes h2{
-    font-size: 20px;
-}
-
-footer .sedes hr,
-footer .lineasAtencion hr {
-    border: none; /* Quita el borde predeterminado */
-    border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
-    margin: 2px 0px 10px 0px;
-}
-
-footer .sedes ul{
-    font-size: 15px;
-}
-
-footer .lineasAtencion{
-    margin-bottom: 41px;
-}
-
-footer .lineasAtencion h2{
-    font-size: 20px;
-}
-
-footer .lineasAtencion ul{
-    font-size: 15px;
-}
-
-
-footer .politicas{
-    font-size: 15px;
-    margin-right: 40px;
-}
-
-footer .politicas ul{
-    list-style-type: none;
-    margin-top: 10px;
-}
-
-footer .politicas a{
-    color: white;
-    text-decoration: none;
-}
-
-main{
-=======
 .title{
->>>>>>> Stashed changes
     display: flex;
     justify-content: center;
     flex-direction: column;
-<<<<<<< Updated upstream
-    height: 800px;
-    
-=======
->>>>>>> Stashed changes
 }
 
 select{
@@ -203,13 +50,57 @@ button{
     width: 100px;
 }
 
-<<<<<<< Updated upstream
+
 footer{
     margin-top: 70px;
     height: 240px;
-=======
+}
 label{
     font-weight: bolder;
+}
+
+.align{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
+}
+
+.align2{
+    display: flex;
+}
+
+.p{
+    text-align: center;
+}
+
+.text3{
+    width: 50%;
+    text-align: center;
+}
+
+.text4{
+    width: 60%;
+    text-align: center;
+}
+
+.city{
+    margin-right: 20px !important;
+}
+
+.number{
+    margin-left: 25px;
 }
 
 @media (max-width: 425px) {
@@ -242,5 +133,41 @@ label{
         width: 50%;
     }
 
->>>>>>> Stashed changes
+}
+
+
+@media (max-width: 992px) {
+
+    .align2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p{
+        text-align: start;
+        margin-left: 12px;
+    }
+
+    .text3{
+        text-align: left;
+    }
+
+    .text4{
+        width: 50%;
+        text-align: left;
+    }
+
+    .number{
+        margin-left: 0;
+    }
+
+    .city{
+        margin-right: 0;
+        margin-left: 18px;
+    }
+
+    .special{
+        margin-left: 8px;
+    }
+    
 }

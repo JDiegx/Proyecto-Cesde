@@ -13,80 +13,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-<<<<<<< Updated upstream
-    <header>
-        <div class="logo">
-            <a href="../Html/index.html"><img src="../assets/img/LogoCesde.svg" alt="Cesde"></a><!-- Logo Cesde Header--> 
-        </div>
-        <nav>
-            <div class="soporteheader">
-                <div class="nayuda">
-                    <h2>¿Necesitas ayuda?</h2>
-                </div>
-                <div class="icons"><img src="../assets/img/cesdewps.svg" alt=""> <img src="../assets/img/telfcesdeicon.webp" alt=""><img src="../assets/img/ticketcesdeicon.webp" alt=""><img src="../assets/img/emailcesdeicon.webp" alt=""></div>
-            </div>
-        </nav>
-    </header>
-    <main>
-
-                <div class="Bienvenida">
-                    <h1>Bienvenido!</h1>
-                    <h5>Hola! para avanzar en tu proceso de selección, necesitas completar la información.</h5>
-                    
-                </div>
-
-              <form class="Formulario">
-                <div class="Center">
-                    <label for="PrimerNombre">Primer nombre:</label>
-                    <input class="PrimerNombre tamaño" placeholder="Escribe aqui tu nombre" type="text" required><br>
-
-                    <label for="PrimerApellido">Primer apellido:</label>
-                    <input class="PrimerApellido tamaño" placeholder="Escribe aqui tu primer apellido" type="text" required><br>
-
-                    <label for="TipoDocumento">Tipo de documento:</label>
-                    <select name="TipoDocumento" id="TipoDocumento" required>
-                        <option value="placeholder" disabled selected>Selecciona el tipo de documento</option>
-                        <option value="CC">Cedula de Ciudadania</option>
-                        <option value="TI">Tarjeta de Identidad</option>
-                        <option value="PS">Pasaporte</option>
-                    </select> <br>
-
-                    <label for="FechaNacimiento">Fecha de nacimiento:</label>
-                    <input class="FechaNacimiento" type="date" required><br>
-
-                    <label for="Departamento">Departamento:</label>
-                    <select name="Departamentos" id="Departamentos" required> 
-                        <option class="Opciones" value="">Amazonas</option><option value="" autofocus>Antioquia</option><option value="">Altantico</option> <option value="">Bolívar</option><option 
-                        value="">Bogotá</option>
-                    </select> <br>
-
-                    <label for="Barrio">Barrio:</label>
-                    <input class="Barrio" placeholder="Barrio donde resides" type="text" required><br>
-                    
-                </div>
-                
-                <div class="Center">
-                    <label for="SegundoNombre">Segundo nombre:</label>
-                    <input class="SegundoNombre tamaño tamaño" placeholder="Escribe aqui tu Segundo nombre" type="text"><br>
-                    
-                    <label for="SegundoApellido">Segundo apellido:</label>
-                    <input class="SegundoApellido tamaño tamaño" placeholder="Escribe aqui tu Segundo apellido" type="text"><br>
-
-                    <label for="NumeroDocumento">Número de documento:</label>
-                    <input class="NumeroDocumento" placeholder="Escribe aqui número de documento" type="text" required><br>
-
-                    <label for="Correo">Correo Electrónico:</label>
-                    <input class="Correo" placeholder="Escribe aqui correo Electrónico" type="email" required><br>
-
-                    <label for="Ciudad">Ciudad:</label>
-                    <input class="Ciudad" placeholder="Ciudad de residencia" type="text" required><br>
-
-                    <label for="Calle">Calle y número:</label>
-                    <input class="Calle" placeholder="Escribe aqui la calle y número de dirección" type="text" required><br>
-                    
-                </div>
-
-=======
     
     <nav class="navbar navbar-expand-lg bg">
         <div class="container">
@@ -120,45 +46,133 @@
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
->>>>>>> Stashed changes
             </form>
           </div>
         </div>
-      </nav>
-
-      <nav class="navbar navbar-expand-lg mt-5">
-        <div class="container title">
-            <h2>Bienvenido!</h2>
-            <h6>Hola! para avanzar en tu proceso de selección, necesitas completar la información.</h6>
+        <div class="container mt-5 bg p-5 br">
+            <div class="row">
+                <div class="col mb-4">
+                    <div class="align">
+                        <div class="text">
+                            <label>Primer nombre</label>
+                        </div>                     
+                        <input type="text" class="form-control" aria-label="First name">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="align">
+                        <div class="text">
+                            <label>Segundo nombre</label>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Last name">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col mb-4">
+                    <div class="align">
+                        <div class="text">
+                            <label>Primer apellido</label>
+                        </div>
+                        <input type="text" class="form-control" aria-label="First name">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="align">
+                        <div class="text">
+                            <label>Segundo apellido</label>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Last name">
+                    </div>              
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="align2">
+                    <div class="text2">
+                        <label class="p">Tipo de documento</label>
+                        <div class="mb-4 me-3" style="width: 325px;">
+                            <select class="form-select special col w-100" aria-label="Default select example">
+                                <option value="1">Cedula de ciudadania</option>
+                                <option value="2">Tarjeta de Identidad</option>
+                                <option value="3">Cedula Extranjera</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="text2">
+                        <label class="p">Departamento</label>
+                        <div class="ms-2 mb-4" style="width: 325px;">
+                            
+                            <select class="form-select col w-100" aria-label="Default select example">
+                                <option value="1">Antioquia</option>
+                                <option value="2">Atlantico</option>
+                                <option value="3">Bogotá</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col mb-4">
+                    <div class="align">
+                        <div class="text">
+                            <label>Fecha de nacimiento</label>
+                        </div>
+                        <input type="date" class="form-control" aria-label="Last name">
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="align">
+                        <div class="text">
+                            <label>Correo electrónico</label>
+                        </div>
+                        <input type="email" class="form-control" aria-label="Last name">
+                    </div>  
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col mb-4">
+                    <div class="align">
+                        <div class="text4">
+                            <label>Número de documento</label>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Last name">
+                    </div>   
+                </div>
+                <div class="col mb-4">
+                    <div class="align">
+                        <div class="text3 city">
+                            <label>Ciudad</label>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Last name">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col mb-4">
+                    <div class="align">
+                        <div class="text3">
+                            <label>Barrio</label>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Last name">
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="align">
+                        <div class="text number">
+                            <label>Calle y número </label>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Last name">
+                    </div>
+                </div>
+            </div>
         </div>
       </nav>
 
-<<<<<<< Updated upstream
-                    <a href="#" style="margin-right: 50px;" aria-disabled="true"><button>Anterior</button></a>
-
-                    <div class="circles">
-                        <a href="#"><span class="material-symbols-outlined"> radio_button_checked </span></a>
-                        <a href="Desktop 3.html"><span class="material-symbols-outlined"> radio_button_unchecked </span></a>
-                        <a href="#"><span class="material-symbols-outlined"> radio_button_unchecked </span></a>
-                    </div>    
-                    
-                    <a style="margin-left: 50px;" href="Desktop 3.html"><button>Siguiente</button></a>
-                    
-                </div>
-
-    </main>
-    <footer>
-        <div class="logredsociales">
-            <img src="../assets/img/logocesdeWhite.png" alt="Logo Cede Blanco">
-            <div class="p">
-                <p>Formación de excelencia para el éxito <br> empresarial y desarrollo personal.</p>
-=======
       <div class="container mt-5 bg p-5 br">
         <div class="row">
             <div class="col">
               <label>Primer nombre</label>
               <input type="text" class="form-control" placeholder="Escribe aquí tu primer nombre" aria-label="First name">
->>>>>>> Stashed changes
             </div>
             <div class="col">
               <label>Segundo nombre</label>
@@ -281,12 +295,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
-<<<<<<< Updated upstream
 </html>
-
-
- 
-
-=======
-</html>
->>>>>>> Stashed changes

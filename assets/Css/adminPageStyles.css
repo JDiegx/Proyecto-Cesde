@@ -1,0 +1,393 @@
+/* ESTILOS GENERALES */
+
+/* Establece el margen y el relleno en cero para todos los elementos */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Define la fuente predeterminada para el cuerpo del documento */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* CONTENEDOR GENERAL*/ 
+.cont-general{
+    display: flex;
+    flex-direction: row;
+}
+
+/* MENU LATERAL*/ 
+.cont-general .sidebar{
+    width: 17%;
+    height: 100vh;
+    background-color: #303030;
+    overflow: hidden;
+}
+
+.cont-general .sidebar header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-general .sidebar header img{
+    margin: 10px 20px 0px 0px;
+}
+.cont-general .sidebar .cont-opciones{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-general .sidebar .cont-opciones .opciones{
+    width: 100%;
+    height: 80%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.cont-general .sidebar .cont-opciones .opciones ul{
+    width: 80%;
+    list-style: none;
+}
+
+.cont-general .sidebar .cont-opciones .opciones ul li{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.cont-general .sidebar .cont-opciones .opciones ul li span{
+    color: white;
+    font-size: 27px;
+}
+.cont-general .sidebar .cont-opciones .opciones ul li p{
+    width: 200px;
+    margin: 10px 10px 10px 10px ;
+}
+
+/* Define estilos para las opciones en el menú lateral */
+.option {
+    cursor: pointer;
+}
+.option:focus,
+.option.active {
+    width: 100%;
+    height: 100%;
+    background-color: #E71D73; /* Cambia el color de fondo aquí */
+    border-radius: 10px;
+}
+/* CONTENEDOR MAIN GENERAL*/ 
+.cont-page-general{
+    width: 83%;
+    height: 100vh;
+    background-color: #ECECEC;
+    overflow: hidden;
+}
+
+/* HEADER*/ 
+.cont-page-general header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-page-general header .cont-header{
+    width: 97%;
+    height: 80px;
+    background-color: #ECECEC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont-page-general header .cont-header .buscar{
+    display: flex;
+    margin-right: 20px;
+}
+
+.cont-page-general header .cont-header .buscar input{
+    margin-left: 90px;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 0px 15px 20px;
+    width: 330px;
+    height: 35px;
+}
+
+.cont-page-general header .cont-header .user-profile img{
+    border-radius: 100%;
+    margin-right: 80px;
+}
+
+/* HEADER*/ 
+main {
+    width: 100%;
+    height: calc(100vh - 100px); /* Ajusta la altura según sea necesario */
+    overflow-y: scroll; /* Agrega overflow-y: scroll aquí */
+}
+
+main .cont-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .cont-main .bann-welcome{
+    width: 1100px;
+    height: 400px;
+    margin-top: 50px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+main .cont-main .bann-welcome .gif{
+    width: 40%;
+    height: 90%;
+}
+
+main .cont-main .bann-welcome .gif img{
+    border-radius: 130px;
+}
+
+main .cont-main .bann-welcome .welcome{
+    width: 40%;
+    height: 90%;
+    margin-left: 50px;
+}
+
+main .cont-main .bann-welcome .welcome h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 70px;
+    color: #F8B000;
+}
+
+main .cont-main .bann-welcome .welcome P{
+    width: 400px;
+}
+
+.cont-targets{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-targets .targets{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.target {
+    width: 280px;
+    height: 220px;
+    background-color: #F6F6F6;
+    margin: 20px;
+    position: relative; /* Importante para que la posición absoluta de .etiqueta sea relativa a .target */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.target .etiqueta {
+    width: 55px;
+    height: 55px;
+    background-color: #E71D73;
+    position: absolute;
+    top: -25px; /* Ajusta la posición verticalmente según sea necesario */
+    height: 55px;
+    margin-left: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.target .etiqueta svg,
+.target .etiqueta span{
+    font-size: 32px;
+    color: white;
+}
+
+.target .text-target{
+    margin: 50px 10px 0px 20px;
+}
+.target .text-target h5{
+    font-size: 17px;
+    font-weight: 600;
+}
+.target .text-target p{
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.target .text-target a{
+    font-size: 14px;
+    text-align: center;
+}
+
+/* CONTENIDO */
+
+.contenido{
+    display: none;
+}
+
+/* CONTENIDO USUARIOS */
+.banner-cont-general{
+    width: 100%;
+    height: 250px;
+    background-color: #353A3E;
+    background-image: url(../img/BackTables.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-cont-general .banner-tittle{
+    width: 100%;
+    margin-top: 60px;
+    margin: 60px 170px 0px 170px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-cont-general .text-banner p{
+    margin-top: -10px;
+}
+
+.button-newuser{
+    width: 100%;
+}
+
+.button-newuser .btn{
+    width: 140px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.button-newuser .btn svg,
+.button-newuser .btn span {
+    margin-right: 10px;
+}
+
+.pop-up-users {
+    width: 100%;
+}
+
+.pop-up-users .modal-dialog {
+    max-width: 800px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-up-users .modal-content {
+    width: 1000px;
+    height: 700px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-up-users .modal-content .form{
+    width: 90%;
+}
+
+.centercamp{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.centercamp .btn{
+    padding: 7px 30px;
+    font-size: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.centercamp .btn svg,
+.centercamp .btn span{
+    margin-right: 5px;
+}
+/* ESTILOS BONOTES */
+
+/* ESTILOS BONOTES */
+.ops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+.ops .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-success,
+.btn-danger{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+
+.cont-tablas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cont-tablas .table{
+    width: 750px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.cont-tablas .table td{
+
+    justify-content: center;
+    align-items: center;
+}
