@@ -19,7 +19,7 @@ body{
 
 /* MENU LATERAL*/ 
 .cont-general .sidebar{
-    width: 17%;
+    width: 340px;
     height: 100vh;
     background-color: #303030;
     overflow: hidden;
@@ -35,6 +35,11 @@ body{
 .cont-general .sidebar header img{
     margin: 10px 20px 0px 0px;
 }
+
+.cont-general .sidebar header .iconC img{
+    display: none;
+}
+
 .cont-general .sidebar .cont-opciones{
     width: 100%;
     height: 450px;
@@ -84,9 +89,10 @@ body{
     background-color: #E71D73; /* Cambia el color de fondo aquí */
     border-radius: 10px;
 }
+
 /* CONTENEDOR MAIN GENERAL*/ 
 .cont-page-general{
-    width: 83%;
+    width: 85%;
     height: 100vh;
     background-color: #ECECEC;
     overflow: hidden;
@@ -316,10 +322,11 @@ main .cont-main .bann-welcome .welcome P{
 
 .pop-up-users .modal-content {
     width: 1000px;
-    height: 700px; 
+    height: auto; 
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0px;
 }
 
 .pop-up-users .modal-content .form{
@@ -387,7 +394,1766 @@ main .cont-main .bann-welcome .welcome P{
 }
 
 .cont-tablas .table td{
-
     justify-content: center;
     align-items: center;
+}
+
+
+@media screen and  (max-width: 354px){
+    main{
+        overflow-x: hidden;
+    }
+    .cont-general .sidebar header img{
+        margin: 0px 0px 0px 0px;
+        display: none;
+    }
+    
+    .cont-general .sidebar header .iconC img{
+        display: flex;
+        width: 45px;
+    }
+    
+    /* MENU LATERAL */
+    .cont-general .sidebar {
+        width: 65px;
+        height: 100vh;
+        background-color: #303030;
+        overflow: hidden;
+    }
+    
+.cont-general .sidebar .cont-opciones{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-general .sidebar .cont-opciones .opciones{
+    width: 100%;
+    height: 80%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+    .cont-general .sidebar .cont-opciones .opciones ul{
+        width: 100%;
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li p{
+        display: none;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li svg {
+        width: 50px;
+        height: 27px;
+        margin-right: 20px;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li span{
+        color: white;
+        font-size: 32px;
+        margin-right: 20px;
+    }
+    .option:focus,
+    .option.active {
+    width: 110%;
+    height: 100%;
+    background-color: #E71D73; /* Cambia el color de fondo aquí */
+    border-radius: 10px;
+}
+
+    /* CONTENEDOR MAIN GENERAL*/ 
+    .cont-page-general {
+        width: 90%;
+        height: 100vh;
+        background-color: #ECECEC;
+        overflow: hidden;
+    }
+
+    /* HEADER*/ 
+    .cont-page-general header {
+        width: 100%;
+        height: 80px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .cont-page-general header .cont-header {
+        width: 97%;
+        height: 60px;
+        background-color: #ECECEC;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cont-page-general header .cont-header .user-profile img{
+        margin-right: 10px;
+    }
+    .cont-page-general header .cont-header .buscar input{
+        width: 150px;
+        margin-left: 10px;
+    }
+    /* BANNER DE BIENVENIDA*/ 
+    main .cont-main .bann-welcome {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        background-color: #F6F6F6;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+
+    main .cont-main .bann-welcome .gif {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .cont-main .bann-welcome .gif img {
+        border-radius: 100px;
+        width: 350px;
+    }
+
+    main .cont-main .bann-welcome .welcome {
+        width: 90%;
+        height: 90%;
+        margin-left: 0px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .cont-main .bann-welcome .welcome h2 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 20px;
+        color: #F8B000;
+        text-align: center;
+    }
+
+    main .cont-main .bann-welcome .welcome P {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .cont-targets {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont-targets .targets {
+        width: 1200px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .target {
+        width: 240px;
+        height: 220px;
+        background-color: #F6F6F6;
+        margin: 20px;
+        position: relative; /* Importante para que la posición absoluta de .etiqueta sea relativa a .target */
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .target .etiqueta {
+        width: 55px;
+        height: 55px;
+        background-color: #E71D73;
+        position: absolute;
+        top: -25px; /* Ajusta la posición verticalmente según sea necesario */
+        height: 55px;
+        margin-left: 15px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .target .etiqueta svg,
+    .target .etiqueta span {
+        font-size: 32px;
+        color: white;
+    }
+
+    .target .text-target {
+        margin: 50px 10px 0px 20px;
+    }
+
+    .target .text-target h5 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .target .text-target p {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+    .target .text-target a {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* BANNER DE LAS PAGINAS */
+    .banner-cont-general {
+        width: 100%;
+        height: 250px;
+        background-color: #353A3E;
+        background-image: url(../img/BackTables.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-cont-general .banner-tittle {
+        width: 100%;
+        height: 100px;
+        margin: 0px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-banner{
+        width: 300px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .banner-cont-general .text-banner h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .banner-cont-general .text-banner p {
+        margin-top: -10px;
+        font-size: 12px;
+        margin-left: 5px;
+        text-align: center;
+    }
+    .button-newuser {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-newuser .btn {
+        width: 100px;
+        height: 35px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+        font-size: 10px;
+        margin-top: -10px;
+    }
+
+    .button-newuser .btn svg,
+    .button-newuser .btn span {
+        margin-right: 10px;
+    }
+    .pop-up-users .modal-content {
+        width: 1000px;
+        height: auto; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0px;
+    }
+    .cont-tablas {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .scroll {
+        overflow-x: auto; /* Permite desplazamiento horizontal */
+        padding-left: 30px;
+    }
+    .scrollP{
+        overflow-x: auto; /* Permite desplazamiento horizontal */
+        padding-left: 40px;
+    }
+    .scrollD{
+        overflow-x: auto; /* Permite desplazamiento horizontal */
+        padding-left: 40px;
+    }
+
+    .cont-tablas .table {
+        width: 90%;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .cont-tablas .table th {
+        font-size: 12px;
+    }
+
+    .cont-tablas .table td {
+        font-size: 11px;
+    }
+}
+@media screen and (min-width: 355px) and (max-width: 600px){ 
+    main{
+        overflow-x: hidden;
+    }
+    .cont-general .sidebar header img{
+        margin: 0px 0px 0px 0px;
+        display: none;
+    }
+    
+    .cont-general .sidebar header .iconC img{
+        display: flex;
+        width: 45px;
+    }
+    
+    /* MENU LATERAL */
+    .cont-general .sidebar {
+        width: 65px;
+        height: 100vh;
+        background-color: #303030;
+        overflow: hidden;
+    }
+    
+.cont-general .sidebar .cont-opciones{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-general .sidebar .cont-opciones .opciones{
+    width: 100%;
+    height: 80%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+    .cont-general .sidebar .cont-opciones .opciones ul{
+        width: 100%;
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li p{
+        display: none;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li svg {
+        width: 50px;
+        height: 27px;
+        margin-right: 20px;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li span{
+        color: white;
+        font-size: 32px;
+        margin-right: 20px;
+    }
+    .option:focus,
+    .option.active {
+    width: 110%;
+    height: 100%;
+    background-color: #E71D73; /* Cambia el color de fondo aquí */
+    border-radius: 10px;
+}
+
+    /* CONTENEDOR MAIN GENERAL*/ 
+    .cont-page-general {
+        width: 90%;
+        height: 100vh;
+        background-color: #ECECEC;
+        overflow: hidden;
+    }
+
+    /* HEADER*/ 
+    .cont-page-general header {
+        width: 100%;
+        height: 80px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .cont-page-general header .cont-header {
+        width: 97%;
+        height: 60px;
+        background-color: #ECECEC;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cont-page-general header .cont-header .user-profile img{
+        margin-right: 10px;
+    }
+    .cont-page-general header .cont-header .buscar input{
+        width: 150px;
+        margin-left: 10px;
+    }
+    /* BANNER DE BIENVENIDA*/ 
+    main .cont-main .bann-welcome {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        background-color: #F6F6F6;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+
+    main .cont-main .bann-welcome .gif {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .cont-main .bann-welcome .gif img {
+        border-radius: 130px;
+        width: 350px;
+    }
+
+    main .cont-main .bann-welcome .welcome {
+        width: 90%;
+        height: 90%;
+        margin-left: 0px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .cont-main .bann-welcome .welcome h2 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 20px;
+        color: #F8B000;
+        text-align: center;
+    }
+
+    main .cont-main .bann-welcome .welcome P {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .cont-targets {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont-targets .targets {
+        width: 1200px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .target {
+        width: 260px;
+        height: 220px;
+        background-color: #F6F6F6;
+        margin: 20px;
+        position: relative; /* Importante para que la posición absoluta de .etiqueta sea relativa a .target */
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .target .etiqueta {
+        width: 55px;
+        height: 55px;
+        background-color: #E71D73;
+        position: absolute;
+        top: -25px; /* Ajusta la posición verticalmente según sea necesario */
+        height: 55px;
+        margin-left: 15px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .target .etiqueta svg,
+    .target .etiqueta span {
+        font-size: 32px;
+        color: white;
+    }
+
+    .target .text-target {
+        margin: 50px 10px 0px 20px;
+    }
+
+    .target .text-target h5 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .target .text-target p {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+    .target .text-target a {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* BANNER DE LAS PAGINAS */
+    .banner-cont-general {
+        width: 100%;
+        height: 250px;
+        background-color: #353A3E;
+        background-image: url(../img/BackTables.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-cont-general .banner-tittle {
+        width: 100%;
+        height: 100px;
+        margin: 0px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-banner{
+        width: 300px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .banner-cont-general .text-banner h1 {
+
+        font-size: 40px;
+        text-align: center;
+    }
+    .banner-cont-general .text-banner p {
+        margin-top: -10px;
+        font-size: 13px;
+        margin-left: 5px;
+        text-align: center;
+    }
+    .button-newuser {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pop-up-users .modal-content {
+        width: 1000px;
+        height: auto; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0px;
+    }
+    .button-newuser .btn {
+        width: 100px;
+        height: 35px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+        font-size: 10px;
+        margin-top: -10px;
+    }
+
+    .button-newuser .btn svg,
+    .button-newuser .btn span {
+        margin-right: 10px;
+    }
+
+    .cont-tablas {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .scroll {
+        overflow-x: auto; /* Permite desplazamiento horizontal */
+        padding-left: 30px;
+    }
+    .scrollP{
+        overflow-x: auto; /* Permite desplazamiento horizontal */
+        padding-left: 40px;
+    }
+    .scrollD{
+        overflow-x: auto; /* Permite desplazamiento horizontal */
+        padding-left: 40px;
+    }
+
+    .cont-tablas .table {
+        width: 90%;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .cont-tablas .table th {
+        font-size: 12px;
+    }
+
+    .cont-tablas .table td {
+        font-size: 11px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 901px){
+    .cont-general .sidebar header img{
+        margin: 0px 0px 0px 0px;
+        display: none;
+    }
+    
+    .cont-general .sidebar header .iconC img{
+        display: flex;
+        width: 50px;
+    }
+    
+    /* MENU LATERAL */
+    .cont-general .sidebar {
+        width: 100px;
+        height: 100vh;
+        background-color: #303030;
+        overflow: hidden;
+    }
+    
+.cont-general .sidebar .cont-opciones{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-general .sidebar .cont-opciones .opciones{
+    width: 100%;
+    height: 80%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+    .cont-general .sidebar .cont-opciones .opciones ul{
+        width: 100%;
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li p{
+        display: none;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li svg {
+        width: 50px;
+        height: 27px;
+        margin-right: 20px;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li span{
+        color: white;
+        font-size: 32px;
+        margin-right: 20px;
+    }
+    .option:focus,
+    .option.active {
+    width: 110%;
+    height: 100%;
+    background-color: #E71D73; /* Cambia el color de fondo aquí */
+    border-radius: 10px;
+}
+
+    /* CONTENEDOR MAIN GENERAL*/ 
+    .cont-page-general {
+        width: 90%;
+        height: 100vh;
+        background-color: #ECECEC;
+        overflow: hidden;
+    }
+
+    /* HEADER*/ 
+    .cont-page-general header {
+        width: 100%;
+        height: 80px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont-page-general header .cont-header {
+        width: 97%;
+        height: 60px;
+        background-color: #ECECEC;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cont-page-general header .cont-header .user-profile img{
+        margin-right: 40px;
+    }
+    .cont-page-general header .cont-header .buscar input{
+        margin-left: 40px;
+    }
+
+    /* BANNER DE BIENVENIDA*/ 
+    main .cont-main .bann-welcome {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        background-color: #F6F6F6;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 0px;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+
+    main .cont-main .bann-welcome .gif {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .cont-main .bann-welcome .gif img {
+        border-radius: 130px;
+        width: 400px;
+    }
+
+    main .cont-main .bann-welcome .welcome {
+        width: 50%;
+        height: 90%;
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+
+    main .cont-main .bann-welcome .welcome h2 {
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 70px;
+        color: #F8B000;
+    }
+
+    main .cont-main .bann-welcome .welcome P {
+        width: 320px;
+        font-size: 15px;
+    }
+
+    .cont-targets {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont-targets .targets {
+        width: 1200px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .target {
+        width: 260px;
+        height: 220px;
+        background-color: #F6F6F6;
+        margin: 20px;
+        position: relative; /* Importante para que la posición absoluta de .etiqueta sea relativa a .target */
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .target .etiqueta {
+        width: 55px;
+        height: 55px;
+        background-color: #E71D73;
+        position: absolute;
+        top: -25px; /* Ajusta la posición verticalmente según sea necesario */
+        height: 55px;
+        margin-left: 15px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .target .etiqueta svg,
+    .target .etiqueta span {
+        font-size: 32px;
+        color: white;
+    }
+
+    .target .text-target {
+        margin: 50px 10px 0px 20px;
+    }
+
+    .target .text-target h5 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .target .text-target p {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+    .target .text-target a {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* BANNER DE LAS PAGINAS */
+    .banner-cont-general {
+        width: 100%;
+        height: 250px;
+        background-color: #353A3E;
+        background-image: url(../img/BackTables.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-cont-general .banner-tittle {
+        width: 100%;
+        margin-top: 60px;
+        margin: 60px 60px 0px 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .banner-cont-general .text-banner h1 {
+        font-size: 35px;
+    }
+
+    .banner-cont-general .text-banner p {
+        margin-top: -10px;
+        font-size: 13px;
+    }
+
+    .button-newuser {
+        width: 100%;
+    }
+
+    .button-newuser .btn {
+        width: 130px;
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+        font-size: 13px;
+    }
+
+    .button-newuser .btn svg,
+    .button-newuser .btn span {
+        margin-right: 10px;
+    }
+
+    
+.pop-up-users {
+    width: 100%;
+    height: auto;
+}
+
+.pop-up-users .modal-dialog {
+    max-width: 800px; 
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-up-users .modal-content {
+    width: 1000px;
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.pop-up-users .modal-content .form{
+    width: 90%;
+}
+    .cont-tablas {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .scroll {
+        overflow-x: auto; /* Permite desplazamiento horizontal */
+        padding-left: 30px;
+    }
+    .scrollP{
+        overflow-x: auto; /* Permite desplazamiento horizontal */
+        padding-left: 40px;
+    }
+    .scrollD{
+        overflow-x: auto; /* Permite desplazamiento horizontal */
+        padding-left: 40px;
+    }
+
+    .cont-tablas .table {
+        width: 90%;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .cont-tablas .table th {
+        font-size: 12px;
+    }
+
+    .cont-tablas .table td {
+        font-size: 11px;
+    }
+}
+@media screen and (min-width: 902px) and (max-width: 1126px) {
+    .cont-general .sidebar header img{
+        margin: 0px 0px 0px 0px;
+        display: none;
+    }
+    
+    .cont-general .sidebar header .iconC img{
+        display: flex;
+        width: 50px;
+    }
+    
+    /* MENU LATERAL */
+    .cont-general .sidebar {
+        width: 100px;
+        height: 100vh;
+        background-color: #303030;
+        overflow: hidden;
+    }
+    
+.cont-general .sidebar .cont-opciones{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-general .sidebar .cont-opciones .opciones{
+    width: 100%;
+    height: 80%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+    .cont-general .sidebar .cont-opciones .opciones ul{
+        width: 100%;
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li p{
+        display: none;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li svg {
+        width: 50px;
+        height: 27px;
+        margin-right: 20px;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li span{
+        color: white;
+        font-size: 32px;
+        margin-right: 20px;
+    }
+    .option:focus,
+    .option.active {
+    width: 110%;
+    height: 100%;
+    background-color: #E71D73; /* Cambia el color de fondo aquí */
+    border-radius: 10px;
+}
+        /* CONTENEDOR MAIN GENERAL*/ 
+        .cont-page-general {
+            width: 95%;
+            height: 100vh;
+            background-color: #ECECEC;
+            overflow: hidden;
+        }
+    
+        /* HEADER*/ 
+        .cont-page-general header {
+            width: 100%;
+            height: 80px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .cont-page-general header .cont-header {
+            width: 97%;
+            height: 60px;
+            background-color: #ECECEC;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .cont-page-general header .cont-header .user-profile img{
+            margin-right: 40px;
+        }
+        .cont-page-general header .cont-header .buscar input{
+            margin-left: 40px;
+        }
+    
+        /* BANNER DE BIENVENIDA*/ 
+        main .cont-main .bann-welcome {
+            width: 760px;
+            height: 340px;
+            margin-top: 50px;
+            background-color: #F6F6F6;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+    
+        main .cont-main .bann-welcome .gif {
+            width: 40%;
+            height: 90%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        main .cont-main .bann-welcome .gif img {
+            border-radius: 130px;
+            width: 380px;
+        }
+    
+        main .cont-main .bann-welcome .welcome {
+            width: 40%;
+            height: 90%;
+            margin-left: 0px;
+        }
+    
+        main .cont-main .bann-welcome .welcome h2 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-top: 70px;
+            color: #F8B000;
+        }
+        main .cont-main .bann-welcome .welcome p{
+            width: 300px;
+            font-size: 14px;
+        }
+        .cont-targets {
+            width: 100%;
+            height: auto;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .cont-targets .targets {
+            width: 1200px;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    
+        .target {
+            width: 260px;
+            height: 220px;
+            background-color: #F6F6F6;
+            margin: 20px;
+            position: relative; /* Importante para que la posición absoluta de .etiqueta sea relativa a .target */
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    
+        .target .etiqueta {
+            width: 55px;
+            height: 55px;
+            background-color: #E71D73;
+            position: absolute;
+            top: -25px; /* Ajusta la posición verticalmente según sea necesario */
+            height: 55px;
+            margin-left: 15px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .target .etiqueta svg,
+        .target .etiqueta span {
+            font-size: 32px;
+            color: white;
+        }
+    
+        .target .text-target {
+            margin: 50px 10px 0px 20px;
+        }
+    
+        .target .text-target h5 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+    
+        .target .text-target p {
+            margin-top: 5px;
+            font-size: 12px;
+        }
+    
+        .target .text-target a {
+            font-size: 13px;
+            text-align: center;
+        }
+    
+        /* BANNER DE LAS PAGINAS */
+        .banner-cont-general {
+            width: 100%;
+            height: 250px;
+            background-color: #353A3E;
+            background-image: url(../img/BackTables.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .banner-cont-general .banner-tittle {
+            width: 100%;
+            margin-top: 60px;
+            margin: 60px 60px 0px 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .banner-cont-general .text-banner h1 {
+            font-size: 35px;
+        }
+    
+        .banner-cont-general .text-banner p {
+            margin-top: -10px;
+            font-size: 13px;
+        }
+    
+        .button-newuser {
+            width: 100%;
+        }
+    
+        .button-newuser .btn {
+            width: 130px;
+            margin-left: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 7px;
+            font-size: 13px;
+        }
+    
+        .button-newuser .btn svg,
+        .button-newuser .btn span {
+            margin-right: 10px;
+        }
+    
+        .cont-tablas {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+    
+        .scroll {
+            overflow-x: auto; /* Permite desplazamiento horizontal */
+            padding-left: 30px;
+        }
+        .cont-tablas .table {
+            width: 720px;
+            text-align: center;
+            font-size: 13px;
+        }
+    
+        .cont-tablas .table th {
+            font-size: 12px;
+        }
+    
+        .cont-tablas .table td {
+            font-size: 11px;
+        }
+}
+@media screen and (min-width: 1127px) and (max-width: 1273px) {
+        /* MENU LATERAL */
+        .cont-general .sidebar {
+            width: 310px;
+            height: 100vh;
+            background-color: #303030;
+            overflow: hidden;
+        }
+        .cont-general .sidebar .cont-opciones .opciones ul li svg {
+            width: 35px;
+            height: 27px;
+        }
+        .cont-general .sidebar .cont-opciones .opciones ul li span {
+            color: white;
+            font-size: 27px;
+        }
+    
+        /* CONTENEDOR MAIN GENERAL*/ 
+        .cont-page-general {
+            width: 85%;
+            height: 100vh;
+            background-color: #ECECEC;
+            overflow: hidden;
+        }
+    
+        /* HEADER*/ 
+        .cont-page-general header {
+            width: 100%;
+            height: 80px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .cont-page-general header .cont-header {
+            width: 97%;
+            height: 60px;
+            background-color: #ECECEC;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .cont-page-general header .cont-header .user-profile img{
+            margin-right: 40px;
+        }
+        .cont-page-general header .cont-header .buscar input{
+            margin-left: 40px;
+        }
+    
+        /* BANNER DE BIENVENIDA*/ 
+        main .cont-main .bann-welcome {
+            width: 760px;
+            height: 340px;
+            margin-top: 50px;
+            background-color: #F6F6F6;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+    
+        main .cont-main .bann-welcome .gif {
+            width: 40%;
+            height: 90%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        main .cont-main .bann-welcome .gif img {
+            border-radius: 130px;
+            width: 380px;
+        }
+    
+        main .cont-main .bann-welcome .welcome {
+            width: 40%;
+            height: 90%;
+            margin-left: 0px;
+        }
+    
+        main .cont-main .bann-welcome .welcome h2 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-top: 70px;
+            color: #F8B000;
+        }
+    
+        main .cont-main .bann-welcome .welcome P {
+            width: 320px;
+            font-size: 13px;
+        }
+    
+        .cont-targets {
+            width: 100%;
+            height: auto;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .cont-targets .targets {
+            width: 1200px;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    
+        .target {
+            width: 260px;
+            height: 220px;
+            background-color: #F6F6F6;
+            margin: 20px;
+            position: relative; /* Importante para que la posición absoluta de .etiqueta sea relativa a .target */
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    
+        .target .etiqueta {
+            width: 55px;
+            height: 55px;
+            background-color: #E71D73;
+            position: absolute;
+            top: -25px; /* Ajusta la posición verticalmente según sea necesario */
+            height: 55px;
+            margin-left: 15px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .target .etiqueta svg,
+        .target .etiqueta span {
+            font-size: 32px;
+            color: white;
+        }
+    
+        .target .text-target {
+            margin: 50px 10px 0px 20px;
+        }
+    
+        .target .text-target h5 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+    
+        .target .text-target p {
+            margin-top: 5px;
+            font-size: 12px;
+        }
+    
+        .target .text-target a {
+            font-size: 13px;
+            text-align: center;
+        }
+    
+        /* BANNER DE LAS PAGINAS */
+        .banner-cont-general {
+            width: 100%;
+            height: 250px;
+            background-color: #353A3E;
+            background-image: url(../img/BackTables.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .banner-cont-general .banner-tittle {
+            width: 100%;
+            margin-top: 60px;
+            margin: 60px 110px 0px 110px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .banner-cont-general .text-banner h1 {
+            font-size: 37px;
+        }
+    
+        .banner-cont-general .text-banner p {
+            margin-top: -10px;
+            font-size: 14px;
+        }
+    
+        .button-newuser {
+            width: 100%;
+        }
+    
+        .button-newuser .btn {
+            width: 130px;
+            margin-left: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 7px;
+            font-size: 13px;
+        }
+    
+        .button-newuser .btn svg,
+        .button-newuser .btn span {
+            margin-right: 10px;
+        }
+    
+        .cont-tablas {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+    
+        .scroll {
+            overflow-x: auto; /* Permite desplazamiento horizontal */
+            padding-left: 30px;
+        }
+    
+        .cont-tablas .table {
+            width: 750px;
+            text-align: center;
+            font-size: 13px;
+        }
+    
+        .cont-tablas .table th {
+            font-size: 12px;
+        }
+    
+        .cont-tablas .table td {
+            font-size: 11px;
+        }
+}
+@media screen and (min-width: 1274px) and (max-width: 1705px) {
+    /* MENU LATERAL */
+    .cont-general .sidebar {
+        width: 320px;
+        height: 100vh;
+        background-color: #303030;
+        overflow: hidden;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li svg {
+        width: 27px;
+        height: 27px;
+    }
+    .cont-general .sidebar .cont-opciones .opciones ul li span {
+        color: white;
+        font-size: 27px;
+    }
+
+    /* CONTENEDOR MAIN GENERAL*/ 
+    .cont-page-general {
+        width: 85%;
+        height: 100vh;
+        background-color: #ECECEC;
+        overflow: hidden;
+    }
+
+    /* HEADER*/ 
+    .cont-page-general header {
+        width: 100%;
+        height: 90px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont-page-general header .cont-header {
+        width: 97%;
+        height: 70px;
+        background-color: #ECECEC;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* BANNER DE BIENVENIDA*/ 
+    main .cont-main .bann-welcome {
+        width: 900px;
+        height: 380px;
+        margin-top: 50px;
+        background-color: #F6F6F6;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+
+    main .cont-main .bann-welcome .gif {
+        width: 40%;
+        height: 90%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .cont-main .bann-welcome .gif img {
+        border-radius: 130px;
+        width: 400px;
+    }
+
+    main .cont-main .bann-welcome .welcome {
+        width: 40%;
+        height: 90%;
+        margin-left: 50px;
+    }
+
+    main .cont-main .bann-welcome .welcome h2 {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: 70px;
+        color: #F8B000;
+    }
+
+    main .cont-main .bann-welcome .welcome P {
+        width: 350px;
+        font-size: 14px;
+    }
+
+    .cont-targets {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont-targets .targets {
+        width: 1200px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .target {
+        width: 280px;
+        height: 220px;
+        background-color: #F6F6F6;
+        margin: 20px;
+        position: relative; /* Importante para que la posición absoluta de .etiqueta sea relativa a .target */
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .target .etiqueta {
+        width: 55px;
+        height: 55px;
+        background-color: #E71D73;
+        position: absolute;
+        top: -25px; /* Ajusta la posición verticalmente según sea necesario */
+        height: 55px;
+        margin-left: 15px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .target .etiqueta svg,
+    .target .etiqueta span {
+        font-size: 32px;
+        color: white;
+    }
+
+    .target .text-target {
+        margin: 50px 10px 0px 20px;
+    }
+
+    .target .text-target h5 {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .target .text-target p {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+    .target .text-target a {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* BANNER DE LAS PAGINAS */
+    .banner-cont-general {
+        width: 100%;
+        height: 250px;
+        background-color: #353A3E;
+        background-image: url(../img/BackTables.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-cont-general .banner-tittle {
+        width: 100%;
+        margin-top: 60px;
+        margin: 60px 110px 0px 110px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .banner-cont-general .text-banner h1 {
+        font-size: 37px;
+    }
+
+    .banner-cont-general .text-banner p {
+        margin-top: -10px;
+        font-size: 14px;
+    }
+
+    .button-newuser {
+        width: 100%;
+    }
+
+    .button-newuser .btn {
+        width: 130px;
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+        font-size: 13px;
+    }
+
+    .button-newuser .btn svg,
+    .button-newuser .btn span {
+        margin-right: 10px;
+    }
+
+    .cont-tablas {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .scroll {
+        overflow-x: auto; /* Permite desplazamiento horizontal */
+        padding-left: 30px;
+    }
+
+    .cont-tablas .table {
+        width: 750px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .cont-tablas .table th {
+        font-size: 12px;
+    }
+
+    .cont-tablas .table td {
+        font-size: 11px;
+    }
+}
+@media screen and (min-width: 1282px) {
 }
