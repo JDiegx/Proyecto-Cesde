@@ -92,7 +92,7 @@ body{
 
 /* CONTENEDOR MAIN GENERAL*/ 
 .cont-page-general{
-    width: 85%;
+    width: 90%;
     height: 100vh;
     background-color: #ECECEC;
     overflow: hidden;
@@ -1523,11 +1523,11 @@ main .cont-main .bann-welcome .welcome P{
         main .cont-main .bann-welcome .welcome h2 {
             font-size: 30px;
             font-weight: 700;
-            margin-top: 70px;
+            margin-top: 45px;
             color: #F8B000;
         }
         main .cont-main .bann-welcome .welcome p{
-            width: 300px;
+            width: 310px;
             font-size: 14px;
         }
         .cont-targets {
