@@ -1,6 +1,5 @@
-*{
-    margin: 0%;
-    padding: 0%;
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{
@@ -16,48 +15,6 @@ header{
 header .logo a img{
     width: 260px;
     margin-left: 50px;
-}
-
-header .soporteheader{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-right: 400px;
-}
-
-header .soporteheader .nayuda h2{
-    font-size: 14px;
-    margin: 0px 15px 0px 0px;
-    font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
-}
-
-header  .soporteheader .icons img{
-    width: 42px;
-}
-
-
-.cont-bienvenido{
-    width: 100%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.cont-bienvenido .bienvenido{
-}
-.cont-bienvenido .bienvenido h1{
-    font-size: 60px;
-    text-align: center;
-    font-weight: 800;
-}
-
-.cont-bienvenido .bienvenido p{
-    font-size: 19px;
-    font-weight: 600;
-    color: black;
 }
 
 .title{
@@ -80,6 +37,7 @@ input{
 
 .bg{
     background-color: #EFEFEF !important;
+    width: 100%;
 }
 
 .br{
@@ -112,12 +70,235 @@ button{
     width: 100px;
 }
 
-label{
-    font-weight: 600;
-    margin-left: 10px;
+.material-symbols-outlined{
+    color: #424242;   
 }
 
-@media (max-width: 425px) {
+label{
+    font-weight: bolder;
+}
+
+.width{
+    width: 350px !important;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #424242;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer .logredsociales{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+}
+
+footer .logredsociales img{
+    width: 160px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+footer .logredsociales .p{
+    margin-top: 16px;
+    width: 200px;
+    font-size: 11px;
+}
+
+footer .redes{
+    margin-top: 25px;
+}
+
+footer .redes i svg{
+    margin: 0px 8px;
+    width: 20px;
+    height: 20px;
+}
+
+footer .redes i svg:hover{
+    color: #fd3089;
+}
+
+footer .sedes h2{
+    font-size: 20px;
+}
+
+footer .sedes hr,
+footer .lineasAtencion hr {
+    border: none;
+    border-top: 2px solid #E71D73; 
+    margin: 2px 0px 10px 0px;
+}
+
+footer .sedes ul{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+footer .lineasAtencion{
+    margin-bottom: 41px;
+}
+
+footer .lineasAtencion h2{
+    font-size: 20px;
+}
+
+footer .lineasAtencion ul{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+footer .politicas{
+    font-size: 15px;
+}
+
+footer .politicas ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+footer .politicas a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 377px) {
+
+    input{
+        width: 327px !important;
+    }
+
+    select{
+        width: 63% !important;
+    }
+
+    .width{
+        width: 225px !important;
+    }
+
+    h6{
+        text-align: center;
+    }
+
+    footer{
+        height: 950px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    footer .logredsociales{
+        width: 350px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 11px;
+    }
+    
+    footer .logredsociales img{
+        width: 180px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    footer .logredsociales .p{
+        margin-top: 15px;
+        width: 250px;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    footer .redes{
+        width: 80%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    footer .redes i svg{
+        margin: 0px 5px;
+        width: 25px;
+        height: 25px;
+    }
+    
+    footer .redes i svg:hover{
+        color: #fd3089;
+    }
+    
+    footer .sedes {
+        width: 240px;
+    }
+    
+    footer .sedes h2{
+        font-size: 20px;
+    }
+    
+    footer .sedes hr,
+    footer .lineasAtencion hr {
+        border: none; /* Quita el borde predeterminado */
+        border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+        margin: 2px 0px 10px 0px;
+    }
+    
+    footer .sedes ul{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    footer .lineasAtencion{
+        margin-bottom: 35px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    footer .lineasAtencion h2{
+        font-size: 20px;
+    }
+    
+    footer .lineasAtencion ul{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    footer .politicas{
+        font-size: 13px;
+    }
+    footer .politicas {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer .politicas ul{
+        list-style-type: none;
+        margin-top: 24px;
+        text-align: center;
+    }
+    
+    footer .politicas a{
+        color: white;
+        text-decoration: none;
+    }
+    
+}
+
+@media (max-width: 426px) {
     
     .title>h2{
         font-size: 1.40rem !important;
@@ -147,4 +328,255 @@ label{
         width: 50%;
     }
 
+    select{
+        width: 100% !important;
+    }
+
+    .width{
+        width: 115px !important;
+    }
+
+    h6{
+        text-align: center;
+    }
+
+    footer{
+        height: 950px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    footer .logredsociales{
+        width: 350px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 11px;
+    }
+    
+    footer .logredsociales img{
+        width: 180px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    footer .logredsociales .p{
+        margin-top: 15px;
+        width: 250px;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    footer .redes{
+        width: 80%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    footer .redes i svg{
+        margin: 0px 5px;
+        width: 25px;
+        height: 25px;
+    }
+    
+    footer .redes i svg:hover{
+        color: #fd3089;
+    }
+    footer .sedes {
+        width: 240px;
+    }
+    
+    footer .sedes h2{
+        font-size: 20px;
+    }
+    
+    footer .sedes hr,
+    footer .lineasAtencion hr {
+        border: none; /* Quita el borde predeterminado */
+        border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+        margin: 2px 0px 10px 0px;
+    }
+    
+    footer .sedes ul{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    footer .lineasAtencion{
+        margin-bottom: 35px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    footer .lineasAtencion h2{
+        font-size: 20px;
+    }
+    
+    footer .lineasAtencion ul{
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    footer .politicas{
+        font-size: 14px;
+
+    }
+    footer .politicas {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer .politicas ul{
+        list-style-type: none;
+        margin-top: 25px;
+        text-align: center;
+    }
+    
+    footer .politicas a{
+        color: white;
+        text-decoration: none;
+    }
+
+}
+
+@media (max-width: 991px){
+
+    .center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .labelcenter{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .margin{
+        margin-top: 24px !important;
+    }
+
+    h6{
+        text-align: center;
+    }
+
+    .width{
+        width: 350px !important;
+    }
+
+    footer{
+        height: 950px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    footer .logredsociales{
+        width: 350px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 11px;
+    }
+    
+    footer .logredsociales img{
+        width: 180px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    footer .logredsociales .p{
+        margin-top: 15px;
+        width: 250px;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    footer .redes{
+        width: 80%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    footer .redes i svg{
+        margin: 0px 5px;
+        width: 25px;
+        height: 25px;
+    }
+    
+    footer .redes i svg:hover{
+        color: #fd3089;
+    }
+    footer .sedes {
+        width: 240px;
+    }
+    footer .sedes h2{
+        font-size: 20px;
+    }
+    
+    footer .sedes hr,
+    footer .lineasAtencion hr {
+        border: none; /* Quita el borde predeterminado */
+        border-top: 2px solid #E71D73; /* Agrega un borde superior con el color deseado y el grosor que desees */
+        margin: 2px 0px 10px 0px;
+    }
+    
+    footer .sedes ul{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    footer .lineasAtencion{
+        margin-bottom: 35px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    footer .lineasAtencion h2{
+        font-size: 20px;
+    }
+    
+    footer .lineasAtencion ul{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    
+    footer .politicas{
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer .politicas ul{
+        list-style-type: none;
+        margin-top: 10px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    footer .politicas a{
+        color: white;
+        text-decoration: none;
+    }
+    
 }

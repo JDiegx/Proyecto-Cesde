@@ -1,8 +1,3 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
-
 header{
     display: flex;
     justify-content: space-between;
@@ -18,45 +13,6 @@ header .logo a img{
     margin-left: 50px;
 }
 
-header .soporteheader{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-right: 400px;
-}
-
-header .soporteheader .nayuda h2{
-    font-size: 14px;
-    margin: 0px 15px 0px 0px;
-    font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
-}
-
-header  .soporteheader .icons img{
-    width: 42px;
-}
-main .cont-cargadocs{
-    width: 100%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-main .cont-cargadocs .cargadocs{
-}
-
-main .cont-cargadocs .cargadocs h1{
-    font-size: 60px;
-    font-weight: 800;
-}
-
-
-main .cont-cargadocs .cargadocs p{
-    font-size: 19px;
-    text-align: center;
-    font-weight: 600;
-}
 .title{
     display: flex;
     justify-content: center;
@@ -72,6 +28,7 @@ main .cont-cargadocs .cargadocs p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 65% !important;
 }
 
 .icon{
@@ -121,13 +78,9 @@ input{
     width: 400px;
     border-radius: 8px;
     border: none;
-    margin: 7px 0px 0px 0px;
-
+    margin-top: 7px;
 }
 
-.icon img{
-    margin-left: 40px;
-}
 .Documento{
     display: flex;
 }
@@ -160,6 +113,98 @@ button{
     display: flex;
     justify-content: space-around;
     width: 100px;
+}
+
+.material-symbols-outlined{
+    color: #424242;   
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #424242;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer .logredsociales{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+}
+
+footer .logredsociales img{
+    width: 160px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+footer .logredsociales .p{
+    margin-top: 16px;
+    width: 200px;
+    font-size: 11px;
+}
+
+footer .redes{
+    margin-top: 25px;
+}
+
+footer .redes i svg{
+    margin: 0px 8px;
+    width: 20px;
+    height: 20px;
+}
+
+footer .redes i svg:hover{
+    color: #fd3089;
+}
+
+footer .sedes h2{
+    font-size: 20px;
+}
+
+footer .sedes hr,
+footer .lineasAtencion hr {
+    border: none;
+    border-top: 2px solid #E71D73; 
+    margin: 2px 0px 10px 0px;
+}
+
+footer .sedes ul{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+footer .lineasAtencion{
+    margin-bottom: 41px;
+}
+
+footer .lineasAtencion h2{
+    font-size: 20px;
+}
+
+footer .lineasAtencion ul{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+footer .politicas{
+    font-size: 15px;
+}
+
+footer .politicas ul{
+    list-style-type: none;
+    margin-top: 10px;
 }
 
 @media (min-width: 0px) and (max-width: 426px) {
@@ -214,4 +259,25 @@ button{
         margin: 0;
     }
 
+}
+
+@media (min-width: 426px) and (max-width: 955px) {
+
+    .label{
+        flex-direction: column;
+    }
+
+    .label>label{
+        margin-bottom: 15px;
+    }
+
+    .br{
+        width: 75% !important;
+    }
+
+    .Center{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
 }
