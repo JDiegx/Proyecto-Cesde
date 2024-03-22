@@ -8,19 +8,17 @@ public class Conexion {
 
     public Connection get_connection() {
 
-        Connection conexion = null;
-
+        Connection connection = null;
 
         try {
-            conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/cesdedbcrm","root","");
-
-            if (conexion != null) {System.out.println("Conexión Exitosa!");}
-
-        }catch (SQLException e) {
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/solucioncesde", "root", "");
+            if (connection != null) {
+                System.out.println("Conexion Exitosssaaaaaa!!!!!!!!!!");
+            }
+        } catch (SQLException e) {
             System.out.println(e);
         }
-        return conexion;
 
+        return connection;
     }
-
 }
