@@ -17,6 +17,24 @@ header .logo a img{
     margin-left: 50px;
 }
 
+header .soporteheader{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 400px;
+}
+
+header .soporteheader .nayuda h2{
+    font-size: 14px;
+    margin-right: 15px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header  .soporteheader .icons img{
+    width: 42px;
+}
+
 .title{
     display: flex;
     justify-content: center;
@@ -33,6 +51,10 @@ select>option{
 
 input{
     width: 320px !important;
+}
+
+input:focus-visible{
+    border-style: none !important;
 }
 
 .bg{
@@ -175,6 +197,14 @@ footer .politicas a{
     text-decoration: none;
 }
 
+.anterior{
+    margin-right: 50px;
+}
+
+.siguiente{
+    margin-left: 50px;
+}
+
 @media (max-width: 377px) {
 
     input{
@@ -295,11 +325,79 @@ footer .politicas a{
         color: white;
         text-decoration: none;
     }
+
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        background-color: #EFEFEF;
+        width: 100%;
+        height: 120px;
+        flex-wrap: wrap;
+    }
+    
+    header .logo a img{
+        width: 260px;
+        margin-left: 0px;
+    }
+    
+    header .soporteheader{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 0px 15px;
+    }
+    
+    header .soporteheader .nayuda h2{
+        font-size: 13px;
+        margin-right: 10px;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    header  .soporteheader .icons img{
+        width: 35px;
+    }
     
 }
 
 @media (max-width: 426px) {
+
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        background-color: #EFEFEF;
+        width: 100%;
+        height: 120px;
+        flex-wrap: wrap;
+    }
     
+    header .logo a img{
+        width: 260px;
+        margin-left: 0px;
+    }
+    
+    header .soporteheader{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 0px 15px;
+    }
+    
+    header .soporteheader .nayuda h2{
+        font-size: 13px;
+        margin-right: 10px;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    header  .soporteheader .icons img{
+        width: 35px;
+    }
+
     .title>h2{
         font-size: 1.40rem !important;
     }
@@ -446,6 +544,40 @@ footer .politicas a{
 }
 
 @media (max-width: 991px){
+
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        background-color: #EFEFEF;
+        width: 100%;
+        height: 120px;
+        flex-wrap: wrap;
+    }
+    
+    header .logo a img{
+        width: 260px;
+        margin-left: 0px;
+    }
+    
+    header .soporteheader{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 0px 15px;
+    }
+    
+    header .soporteheader .nayuda h2{
+        font-size: 13px;
+        margin-right: 10px;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    header  .soporteheader .icons img{
+        width: 35px;
+    }
 
     .center{
         display: flex;
